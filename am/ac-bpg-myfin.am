@@ -1,0 +1,7 @@
+= Business Process Group myFin =
+
+Nasim podnikem je sprava osobnich financi.
+
+Abych mohl sve finance sledovat, musim nejdrive jednorazove definovat ucty, na kterych lezi penize, definovat kategorie prijmu a kategorie vydaju apod. Tyto procesy spadaji do skupiny [[ac-bpg-nastaveni]].
+
+[[ac-bpg-evidence-pohybu]]
