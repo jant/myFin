@@ -8,10 +8,11 @@ financi. Projekt vyvoje tohoto IS ma kodove jmeno *myFin*.
 
 Analyticky model je tvoren tremi dilcimi modely:
   - [[pk-bpm|Business Process Model]] (model procesu podniku)
-  - [[pk-ucm|Use Case Model]] (model pripadu uziti) + User Concept Dictionary
-    (slovnik uzivatelskych pojmu)
+  - [[pk-ucm|Use Case Model]] (model pripadu uziti)
   - [[pk-cm|Class Model]] (model trid) + State model...
 
+Jak UCM tak CM pouzivaji
+  - [[pk-ucd|User Concept Dictionary]]
 
 == Ucel IS myFin ==
 
@@ -31,18 +32,18 @@ nejenze nedarilo splatit, ale dokonce se prohluboval.
 
 Vylepseni prijmove stranky rozpoctu, tedy zvyseni platu, je v nedohlednu, takze
 jedinym resenim je omezeni vydaju. Ale na cem setrit, kdyz nevim, za co presne
-utracime? Abych to zjistil, tak se neda nic delat a musim vysi a strukturu
+utracime? Abych to zjistil, tak mi nezbyva nic jineho, nez vysi a strukturu
 vydaju sledovat a vest si tedy babiccin denik vydaju. Abych ho nemusel vest
 pracne v sesitku, tak se pro evidenci vydaju vytvorim IS myFin, ktery mi
-ulehci praci ergonomickym zadavanim pohybu, automatickym generovanim
+ulehci praci ergonomickym zadavanim pohybu penez, automatickym generovanim
 pravidelnych plateb, moznosti definovat kategorie vydaju apod.
 
 Pokud si takovou evideci vydaju povedu nekolik mesicu nebo dokonce let, tak mam
-k dispozici pravdive podklady k tomu, abych analyzoval, za CO utracime. IS myFin
+k dispozici pravdive podklady k tomu, abych vedel, za CO utracime. IS myFin
 mi k analyze poskytne dokonale nastroje. Diky nim mohu posoudit, ktere vydaje
 jsou nezbytne a ktere zbytne. Ty zbytne mohu snizit a usetrit a dostat se tak z
-dluhove pasti. Navic mohu konecne manzelce presvedcive dokazat, ze na sve
-oblicejove kremy utraci dvakrat vic nez ja za fotbal.
+dluhove pasti. Navic mohu konecne sve milovane manzelce presvedcive dokazat, ze
+za sve oblicejove kremy utraci dvakrat vic nez ja za fotbal.
 
 Dalsim vyvojovym stupnem k ovladnuti svych financi je sestaveni rozpoctu a
 hlavne kontrola jeho dodrzovani. To by mel myFin take umet.
@@ -50,3 +51,6 @@ hlavne kontrola jeho dodrzovani. To by mel myFin take umet.
 Diky myFin ziskam i dalsi vyhody. Napr. rychly prehled o celkovem saldu
 domacnosti nebo nastroj k rychlemu odsouhlaseni spravnosti bankovniho vypisu
 z bezneho uctu.
+
+
+
