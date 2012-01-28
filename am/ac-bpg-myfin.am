@@ -1,7 +1,12 @@
-= Business Process Group myFin =
+= Activity <<Business Process Group>> myFin =
 
-Nasim podnikem je sprava osobnich financi.
+Modelovanym podnikem je sprava domacich financi.
 
-Abych mohl sve finance sledovat, musim nejdrive jednorazove definovat ucty, na kterych lezi penize, definovat kategorie prijmu a kategorie vydaju apod. Tyto procesy spadaji do skupiny [[ac-bpg-nastaveni]].
+Aby bylo mozne tok a stav financi v domacnosti vubec sledovat, musi domacnost
+nejprve urcit {TODO lepsi slovo nez urcit} ucty, na kterych se jeji penize
+nachazeji a jejichz stav bude podlehat sledovani. Viz [[ac-bp-definice-uctu]].
 
-[[ac-bpg-evidence-pohybu]]
+Pokazde, kdyz z nektereho sledovaneho uctu domacnost penize vybere nebo naopak
+na ucet penize vlozi, tak je treba tuto skutecnost zaevidovat. Viz
+[[ac-bp-evidence-transakce]].
+

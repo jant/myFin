@@ -1,5 +1,13 @@
 = Package Business Process Model =
 
 Tento model slouzi k
-  - vyhledani jednotlivych UC pomoci stromoveho rozkladu procesu podniku. Koren rozkladu je [[ac-bpg-myfin|zde]].
-  - Scenar kazdeho listoveho BP slouzi k vysvetleni kontextu pouziti jednoho UC.
+  - vyhledani jednotlivych UC pomoci stromoveho rozkladu procesu podniku.
+  - Scenar kazdeho BP slouzi k vysvetleni kontextu pouziti jednoho UC.
+
+
+== Rozklad procesu podniku ==
+
+[[ac-bpg-myfin]] - koren rozkladu
+  [[ac-bp-definice-uctu]]
+  [[ac-bp-evidence-transakce]]  
+

@@ -1,6 +1,6 @@
 = Analyticky model IS myFin =
 
-Tento dokument je analytickym modelem informacniho systemu pro spravu osobnich
+Tento dokument je analytickym modelem informacniho systemu pro spravu domacich
 financi. Projekt vyvoje tohoto IS ma kodove jmeno *myFin*.
 
 
@@ -9,10 +9,11 @@ financi. Projekt vyvoje tohoto IS ma kodove jmeno *myFin*.
 Analyticky model je tvoren tremi dilcimi modely:
   - [[pk-bpm|Business Process Model]] (model procesu podniku)
   - [[pk-ucm|Use Case Model]] (model pripadu uziti)
-  - [[pk-cm|Class Model]] (model trid) + State model...
+  - [[pk-cm|Class Model]] (model trid)
 
-Jak UCM tak CM pouzivaji
-  - [[pk-ucd|User Concept Dictionary]]
+Jak UCM tak CM pouzivaji:
+  - [[pk-ucd|Concept Dictionary]]
+
 
 == Ucel IS myFin ==
 

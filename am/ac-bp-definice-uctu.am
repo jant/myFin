@@ -1,0 +1,12 @@
+= Activity <<Business Process>> Definice uctu =
+
+Uctem je napr. bezny ucet v bance, kam mi zamestnavatel posila vyplatu, uctem je
+penezenka, ve ktere mam hotovost, uctem je kreditni karta, kterou platim nakupy,
+uctem je i pujcka od kamarada. V dennim zivote tedy sve penize protahujeme pres
+nekolik svych ruznych uctu. A to vsechno jenom proto, abychom je mohli nakonec
+spokojene utratit.
+
+K definici uctu v systemu uzivatel pouzije [[uc-definice-uctu]]. Definici uctu musi
+uzivatel systemu provest jednorazove na zacatku pouzivani systemu a potom se k
+nemu jiz nemusi vracet. Pouze v pripade, ze si casem otevre treba sporici ucet nebo
+zridi hypoteku na novy byt. 
