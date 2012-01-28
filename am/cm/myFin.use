@@ -1,0 +1,74 @@
+-- open ../myFin/myFin.use
+
+model myFin
+
+-- Account ------------------------------------------------------------------
+
+-- Účet
+-- constraints
+--   1) uniqueness: name
+--   2) name <> null
+--   3) name.size <= 20
+--   4) descr.size <= 80
+class Account
+attributes
+
+  -- Jméno účtu   
+  name : String
+  
+  -- Popis účtu
+  descr : String
+end
+
+
+-- Transaction --------------------------------------------------------------
+
+-- Transakce
+-- constraints
+--   1) uniqueness: account, date, amount, descr
+--   2) account <> null
+--   3) date <> null
+--   4) date <> 0
+--   5) amount <> null
+--   6) amount <> 0
+--   7) descr.size <= 80
+class Transaction
+attributes
+
+  -- Datum transakce
+  date : Integer -- Date
+
+  -- Částka transakce
+  amount : Real
+ 
+  -- Popis transakce
+  descr : String
+end
+
+  -- Účet transakce
+  association TransactionAccount between
+    Transaction[*]
+    Account[1]
+  end
+
+
+constraints
+
+context Account
+  inv inv1: Account.allInstances->forAll(i1,i2 | i1 <> i2 implies i1.name <> i2.name)
+  inv inv2: name <> null
+  inv inv3: name.size <= 20
+  inv inv4: descr.size <= 80
+
+context Transaction
+  inv inv1: Transaction.allInstances->forAll(i1,i2 | i1 <> i2 implies
+    i1.account <> i2.account or i1.date <> i2.date or i1.amount <> i2.amount or i1.descr <> i2.descr)
+  inv inv2: account <> null
+  inv inv3: date <> null
+  inv inv4: date <> 0
+  inv inv5: amount <> null
+  inv inv6: amount <> 0
+  inv inv7: descr.size <= 80
+
+
+
