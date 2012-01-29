@@ -1,7 +1,7 @@
 = Package Business Process Model =
 
 Tento model slouzi k
-  - vyhledani jednotlivych UC pomoci stromoveho rozkladu procesu podniku.
+  - vyhledani jednotlivych UC pomoci rozkladu procesu podniku.
   - Scenar kazdeho BP slouzi k vysvetleni kontextu pouziti jednoho UC.
 
 
