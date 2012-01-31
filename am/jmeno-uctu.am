@@ -1,1 +1,5 @@
 = Object <<Concept>> Jmeno uctu =
+
+== description ==
+Libovolny vystizny kratky text, ktery slouzi jako identifikator uctu. Napr.
+"penezenka", "bezny ucet", "kreditka".
