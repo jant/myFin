@@ -4,9 +4,9 @@ Modelovanym podnikem je sprava domacich financi.
 
 Aby bylo mozne tok a stav financi v domacnosti vubec sledovat, musi domacnost
 nejprve urcit {TODO lepsi slovo nez urcit} ucty, na kterych se jeji penize
-nachazeji a jejichz stav bude podlehat sledovani. Viz [[ac-bp-definice-uctu]].
+nachazeji a jejichz stav bude podlehat sledovani. Viz [[ac_bp_definice_uctu]].
 
 Pokazde, kdyz z nektereho sledovaneho uctu domacnost penize vybere nebo naopak
 na ucet penize vlozi, tak je treba tuto skutecnost zaevidovat. Viz
-[[ac-bp-evidence-transakce]].
+[[ac_bp_evidence_transakce]].
 
