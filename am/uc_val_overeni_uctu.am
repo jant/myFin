@@ -1,0 +1,27 @@
+= UseCase <<validation>> Overeni uctu =
+
+== description ==
+System overi, zda udaje o [[ucet]] zadane na formulari splnuji systemova
+omezeni.
+
+== preconditions ==
+  - Je vyplneny formular s udaji o [[ucet]].
+ 
+== scenario ==
+Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
+  # jednoznacnost: [[jmeno_uctu]]
+  # [[jmeno_uctu]] je povinne
+  # [[jmeno_uctu]] <= 20
+  # [[popis_uctu]] <= 80
+
+== postconditions ==
+  - Udaje na formulari splnuji systemova omezeni.
+
+== errors ==
+  - ERR1: Jiz je evidovan jiny [[ucet]] se [[jmeno_uctu]] = [%1].
+  - ERR2: [[jmeno_uctu]] je povinne.
+  - ERR3: [[jmeno_uctu]] [%1] muze obsahovat maximalne 20 znaku.
+  - ERR4: [[popis_uctu]] [%1] muze obsahovat maximalne 80 znaku.
+
+
+

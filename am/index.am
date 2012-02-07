@@ -3,7 +3,6 @@
 Tento dokument je analytickym modelem informacniho systemu pro spravu domacich
 financi. Projekt vyvoje tohoto IS ma kodove jmeno *myFin*.
 
-
 == Slozky modelu ==
 
 Analyticky model je tvoren tremi dilcimi modely:
