@@ -1,4 +1,4 @@
-= UseCase <<validation>> Overeni uctu =
+= UseCase <<validation>> Overeni omezeni uctu =
 
 == description ==
 System overi, zda udaje o [[ucet]] zadane na formulari splnuji systemova

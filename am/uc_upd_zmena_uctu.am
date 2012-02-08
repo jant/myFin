@@ -1,0 +1,23 @@
+= UseCase <<update>> Zmena uctu =
+
+== description ==
+Uzivatel u jiz evidovaneho [[ucet]] zmeni nektere udaje.
+
+== preconditions ==
+  - Je evidovany [[ucet]] 
+
+== scenario ==
+Uzivatel urci [[ucet]], jehoz udaje chce zmenit.
+System predlozi formular vyplneny udaji urceneho [[ucet]].
+Uzivatel zada udaje:
+  - [[jmeno_uctu]] {+}{i}
+  - [[popis_uctu]]
+
+Uzivatel odevzda vyplneny formular.
+System overi omezeni zadanych udaju. Viz [[uc_val_overeni_omezeni_uctu]].
+System zmeni udaje na karte [[ucet]].
+
+== postconditions ==
+  - Je zmenen [[ucet]]. 
+
+== errors ==

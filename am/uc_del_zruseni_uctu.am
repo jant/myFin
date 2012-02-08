@@ -1,0 +1,25 @@
+= UseCase <<delete>> Zruseni uctu =
+
+== description ==
+Uzivatel zrusi evidovany [[ucet]].
+
+== preconditions ==
+  - Je evidovany [[ucet]].
+
+== scenario ==
+Uzivatel urci [[ucet]], ktery chce zrusit.
+System zrusi kartu [[ucet]].
+Uzivatel zada udaje:
+  - [[jmeno_uctu]] {+}{i}
+  - [[popis_uctu]]
+
+Uzivatel odevzda vyplneny formular.
+System overi omezeni zadanych udaju. Viz [[uc_val_overeni_omezeni_uctu]].
+System zmeni udaje na karte [[ucet]].
+
+== postconditions ==
+  - Je zmenen [[ucet]]. 
+
+== errors ==
+
+

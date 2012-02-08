@@ -1,1 +1,18 @@
-eiididid
+= UseCase Evidence uctu =
+
+== description ==
+Zalozeni/zmena/zruseni [[ucet]].
+
+== preconditions ==
+
+== scenario ==
+Pro zalozeni noveho [[ucet]] uzivatel pouzije [[uc_ins_zalozeni_uctu]].
+Pro zmenu udaju jiz evidovaneho [[ucet]] uzivatel pouzije [[uc_upd_zmena_uctu]].
+Pro zruseni evidovaneho [[ucet]] uzivatel pouzije [[uc_del_zruseni_uctu]].
+
+== postconditions ==
+  - Je zalozen/zmenen/zrusen [[ucet]]. 
+
+== errors ==
+
+

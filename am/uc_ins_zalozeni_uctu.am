@@ -1,7 +1,7 @@
 = UseCase <<insert>> Zalozeni uctu =
 
 == description ==
-Uzivatel zada udaje a system zalozi [[ucet]].
+Uzivatel zada udaje a system zalozi novy [[ucet]].
 
 == preconditions ==
 
@@ -10,16 +10,13 @@ System predlozi prazdny formular. Uzivatel zada udaje:
   - [[jmeno_uctu]] {+}{i}
   - [[popis_uctu]]
 
-Uzivatel odevzda vyplneny formular. System overi spravnost zadanych udaju. Viz [[uc_val_overeni_uctu]].
-System zalozi [[ucet]].
+Uzivatel odevzda vyplneny formular.
+System overi spravnost zadanych udaju. Viz [[uc_val_overeni_omezeni_uctu]].
+System zalozi novou kartu [[ucet]].
 
 == postconditions ==
   - Je zalozen [[ucet]]. 
 
 == errors ==
-  - ERR1: Jiz je evidovan jiny [[ucet]] se [[jmeno_uctu]] = [%1]. Zadejte jine [[jmeno_uctu]].
-  - ERR2: [[jmeno_uctu]] je povinne.
-  - ERR3: [[jmeno_uctu]] [%1] muze obsahovat maximalne 20 znaku.
-  - ERR4: [[popis_uctu]] [%1] muze obsahovat maximalne 80 znaku.
 
 
