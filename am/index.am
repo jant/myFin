@@ -6,12 +6,12 @@ financi. Projekt vyvoje tohoto IS ma kodove jmeno *myFin*.
 == Slozky modelu ==
 
 Analyticky model je tvoren tremi dilcimi modely:
-  - [[pk_bpm|Business Process Model]] (model procesu podniku)
-  - [[pk_ucm|Use Case Model]] (model pripadu uziti)
-  - [[pk_cm|Class Model]] (model trid)
+- [[pk_bpm|Business Process Model]] (model procesu podniku)
+- [[pk_ucm|Use Case Model]] (model pripadu uziti)
+- [[pk_cm|Class Model]] (model trid)
 
 Jak UCM tak CM pouzivaji:
-  - [[pk_cd|Concept Dictionary]] (slovnik pojmu)
+- [[pk_cd|Concept Dictionary]] (slovnik pojmu)
 
 
 == Ucel IS myFin ==

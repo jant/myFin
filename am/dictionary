@@ -1,14 +1,19 @@
-<<<<<<< HEAD
-["ac_bpg_myfin.am", "ac_bp_definice_uctu.am", "ac_bp_evidence_transakce.am", "index.am", "jmeno_uctu.am", "pk_bpm.am", "pk_cd.am", "pk_cm.am", "pk_ucm.am", "popis_uctu.am", "ucet.am", "uc_evidence_transakce.am", "uc_evidence_uctu.am"]
-=======
-ucet
-jmeno_uctu
-popis_uctu
-uc_del_zruseni_uctu
-uc_val_overeni_omezeni_uctu
-uc_upd_zmena_uctu
-uc_ins_zalozeni_uctu
-uc_definice_uctu
-uc_evidence_transakce
-
->>>>>>> 4be0aad3260839a3d83778e5d0ad3331024b2faf
+ac_bpg_myfin.am
+ac_bp_definice_uctu.am
+ac_bp_evidence_transakce.am
+index.am
+jmeno_uctu.am
+pk_bpm.am
+pk_cd.am
+pk_cm.am
+pk_ucm.am
+pokus.am
+popis_uctu.am
+transakce.am
+ucet.am
+uc_del_zruseni_uctu.am
+uc_evidence_transakce.am
+uc_evidence_uctu.am
+uc_ins_zalozeni_uctu.am
+uc_upd_zmena_uctu.am
+uc_val_overeni_omezeni_uctu.am
