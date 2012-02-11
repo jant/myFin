@@ -1,0 +1,12 @@
+= Package UseCase Model =
+
+[[uc_evidence_uctu]]
+  [[uc_ins_zalozeni_uctu]]
+  [[uc_upd_zmena_uctu]]
+  [[uc_del_zruseni_uctu]]
+[[uc_evidence_transakce]]
+
+
+Poznamka: sem zapisuj pouze UC, ktere jsou uzivatelske.
+
+

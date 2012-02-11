@@ -1,13 +1,17 @@
-= UseCase Evidence transakce =
+= UseCase <<register>> Evidence transakce =
 
 == description ==
+
 Zalozeni/zmena/zruseni [[transakce]].
 
 == preconditions ==
 
 == scenario ==
-Pro zalozeni noveho [[transakce]] uzivatel pouzije [[uc_ins_zalozeni_transakce]].
+
+Pro zalozeni nove [[transakce]] uzivatel pouzije [[uc_ins_zalozeni_transakce]].
+
 Pro zmenu udaju jiz evidovaneho [[ucet]] uzivatel pouzije [[uc_upd_zmena_transakce]].
+
 Pro zruseni evidovaneho [[ucet]] uzivatel pouzije [[uc_del_zruseni_transakce]].
 
 == postconditions ==

@@ -1,0 +1,17 @@
+class Account
+attributes
+  -- [[jmeno_uctu]]   
+  name : String
+  -- [[popis_uctu]]
+  descr : String
+end
+
+
+constraints
+
+context Account
+  inv inv1: Account.allInstances->forAll(i1,i2 | i1 <> i2 implies i1.name <> i2.name)
+  inv inv2: name <> null
+  inv inv3: name.size <= 20
+  inv inv4: descr.size <= 80
+

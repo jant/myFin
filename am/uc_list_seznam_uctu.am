@@ -1,0 +1,21 @@
+= UseCase <<list>> Seznam uctu =
+
+== description ==
+
+System predlozi seznam evidovanych [[ucet]].
+
+== preconditions ==
+
+== scenario ==
+
+System predlozi seznam evidovanych [[ucet]], ktery obsahuje tyto udaje:
+- [[jmeno_uctu]]
+- [[popis_uctu]]
+
+== postconditions ==
+
+== errors ==
+
+ 
+
+

@@ -1,0 +1,24 @@
+= UseCase <<determination>> Urceni uctu =
+
+== description ==
+
+Uzivatel urci prave jeden [[ucet]] evidovany v systemu.
+
+== preconditions ==
+
+== scenario ==
+
+System predlozi prazdny formular. Uzivatel zada nasledujici identifikacni udaje:
+- [[jmeno_uctu]]
+
+Pro zjisteni, ktere [[ucet]] jsou v systemu evidovane, uzivatel pouzije
+[[uc_list_seznam_uctu|seznam]].
+  
+Pokud zadanym identifikacnim udajum neodpovida zadny evidovany [[ucet]], tak ERR1.
+
+== postconditions ==
+- Je urcen [[ucet]]. 
+
+== errors ==
+# [[ucet]] s [[jmeno_uctu]] = [%1] neni evidovan
+ 

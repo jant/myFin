@@ -1,18 +1,20 @@
 = UseCase <<insert>> Zalozeni uctu =
 
 == description ==
+
 Uzivatel zada udaje a system zalozi novy [[ucet]].
 
 == preconditions ==
 
 == scenario ==
+
 System predlozi prazdny formular. Uzivatel zada udaje:
 - [[jmeno_uctu]] {+}{i}
 - [[popis_uctu]]
 
 Uzivatel odevzda vyplneny formular.
-System overi spravnost zadanych udaju. Viz [[uc_val_overeni_omezeni_uctu]].
-System zalozi novou kartu [[ucet]].
+
+System [[uc_val_validace_uctu|overi platnost]] zadanych udaju. System zalozi novou kartu [[ucet]].
 
 == postconditions ==
 - Je zalozen [[ucet]]. 
