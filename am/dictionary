@@ -1,7 +1,6 @@
 ac_bpg_myfin.am
 ac_bp_definice_uctu.am
 ac_bp_evidence_transakce.am
-bla bla.am
 index.am
 jmeno_uctu.am
 pk_bpm.am
@@ -10,10 +9,11 @@ pk_cm.am
 pk_ucm.am
 pokus.am
 popis_uctu.am
+transakce.am
 ucet.am
-uc_definice_uctu.am
 uc_del_zruseni_uctu.am
 uc_evidence_transakce.am
+uc_evidence_uctu.am
 uc_ins_zalozeni_uctu.am
 uc_upd_zmena_uctu.am
 uc_val_overeni_omezeni_uctu.am
