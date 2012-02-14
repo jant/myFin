@@ -1,0 +1,31 @@
+-- [[transakce]] 
+class Transaction
+attributes
+  -- [[datum_uskutecneni_transakce]] 
+  realiz_date: Date
+  -- [[castka_transakce]]
+  amount: Real
+  -- [[popis_transakce]]
+  descr: String
+end
+  -- [[ucet_transakce]]
+  association TransactionAccount between
+    Transaction[*]
+    -- [[ucet]]
+    Account[1]
+  end
+
+
+constraints
+
+context Transaction
+  inv inv1: Transaction.allInstances->forAll(i1,i2 | i1 <> i2 implies
+    i1.account <> i2.account or i1.date <> i2.date or i1.amount <> i2.amount or i1.descr <> i2.descr)
+  inv inv2: account <> null
+  inv inv3: date <> null
+  inv inv4: amount <> null
+  inv inv5: amount <> 0
+  inv inv6: descr.size <= 80
+
+
+

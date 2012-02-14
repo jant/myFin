@@ -1,5 +1,7 @@
 = Package UseCase Model =
 
+Vnejsi UC (tzn. ty, ktere spousti primo uzivatele):
+
 [[uc_evidence_uctu]]
   [[uc_ins_zalozeni_uctu]]
   [[uc_upd_zmena_uctu]]
@@ -7,6 +9,5 @@
 [[uc_evidence_transakce]]
 
 
-Poznamka: sem zapisuj pouze UC, ktere jsou uzivatelske.
 
 

@@ -1,0 +1,26 @@
+= UseCase <<determination>> Urceni transakce =
+
+== description ==
+
+Uzivatel urci prave jednu [[transakce]] evidovanou v systemu.
+
+== preconditions ==
+
+== scenario ==
+
+System predlozi prazdny formular. Uzivatel zada nasledujici identifikacni udaje:
+  - [[attr]]
+
+Pro zjisteni, ktere [[transakce]] jsou v systemu evidovane, uzivatel pouzije
+[[uc_list_seznam_transakce|seznam]].
+  
+Pokud zadanym identifikacnim udajum neodpovida zadny evidovany [[transakce]], tak ERR1.
+
+== postconditions ==
+  - Je urcen [[transakce]]. 
+
+== errors ==
+  # [[transakce]] s [[attr]] = [%1] neni evidovan
+
+
+

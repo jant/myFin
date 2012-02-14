@@ -1,0 +1,34 @@
+= UseCase <<validation>> Validace transakce =
+
+== description ==
+
+System overi, zda udaje o [[transakce]] zadane na formulari splnuji systemova
+omezeni a jsou platne.
+
+== preconditions ==
+ 
+== scenario ==
+
+Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
+# jednoznacnost: [[ucet]], [[datum_uskutecneni_transakce]], [[castka_transakce]],
+  [[popis_transakce]]
+# [[ucet]] je povinny
+# [[datum_uskutecneni_transakce]] je povinne
+# [[castka_transakce]] je povinna
+# [[castka_transakce]] <> 0
+# [[popis_transakce]] <= 80
+
+
+== postconditions ==
+- Udaje na formulari splnuji systemova omezeni a jsou platne.
+
+== errors ==
+# Jiz je evidovan jina [[transakce]] s [[ucet]] = [%1],
+  [[datum_uskutecneni_transakce]] = [%2], [[castka_transakce]] = [%3],
+  [[popis_transakce]] = [%4].
+# [[ucet]] je povinny.
+# [[datum_uskutecneni_transakce]] je povinne.
+# [[castka_transakce]] je povinna.
+# [[castka_transakce]] nesmi byt 0.
+# [[popis_transakce]] muze obsahovat maximalne 80 znaku.
+

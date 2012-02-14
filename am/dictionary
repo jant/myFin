@@ -3,8 +3,9 @@ ac_bp_definice_uctu.am
 ac_bp_evidence_transakce.am
 bla bla.am
 castka_transakce.am
-cls_ucet.am
-datum_transakce.am
+cls_account.am
+cls_transaction.am
+datum_uskutecneni_transakce.am
 index.am
 jmeno_uctu.am
 pkg_bpm.am
@@ -16,12 +17,18 @@ popis_transakce.am
 popis_uctu.am
 transakce.am
 ucet.am
+ucet_transakce.am
 uc_del_zruseni_uctu.am
+uc_det_urceni_transakce.am
 uc_det_urceni_uctu .am
+uc_det_urceni_uctu.am
 uc_evidence_transakce.am
 uc_evidence_uctu.am
 uc_ins_zalozeni_transakce.am
 uc_ins_zalozeni_uctu.am
+uc_list_seznam_transakci.am
 uc_list_seznam_uctu.am
+uc_upd_zmena_transakce.am
 uc_upd_zmena_uctu.am
+uc_val_validace_transakce.am
 uc_val_validace_uctu.am

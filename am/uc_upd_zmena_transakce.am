@@ -1,0 +1,29 @@
+= UseCase <<update>> Zmena transakce =
+
+== description ==
+
+Uzivatel u jiz evidovane [[transakce]] zmeni nektere udaje.
+
+== preconditions ==
+  - Je evidovan [[ucet]] 
+
+== scenario ==
+
+Uzivatel [[uc_det_urceni_transakce|urci]] [[transakce]], jejiz udaje chce zmenit.
+
+System predlozi formular vyplneny udaji urceneho [[transakce]]. Uzivatel zada udaje:
+  - [[ucet]] {+}{i}
+  - [[datum_uskutecneni_transakce]] {+}{i}
+  - [[castka_transakce]] {+}{i}
+  - [[popis_transakce]] {i}
+
+Uzivatel odevzda vyplneny formular.
+
+System [[uc_val_validace_transakce|overi platnost]] zadanych udaju. System zmeni udaje na karte [[transakce]].
+
+== postconditions ==
+  - Je zmenena [[transakce]]. 
+
+== errors ==
+
+

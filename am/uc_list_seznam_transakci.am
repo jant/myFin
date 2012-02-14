@@ -1,0 +1,25 @@
+= UseCase <<list>> Seznam transakci =
+
+== description ==
+
+System predlozi seznam evidovanych [[transakce]].
+
+== preconditions ==
+
+== scenario ==
+
+System predlozi seznam evidovanych [[transakce]], ktery obsahuje tyto udaje:
+  - [[ucet]]
+  - [[datum_uskutecneni_transakce]]
+  - [[castka_transakce]]
+  - [[popis_transakce]]
+
+== postconditions ==
+
+== errors ==
+
+ 
+
+
+
+

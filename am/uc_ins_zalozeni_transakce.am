@@ -5,23 +5,22 @@
 Uzivatel zada udaje a system zalozi novou [[transakce]].
 
 == preconditions ==
-- Je evidovan [[ucet]].
+  - Je evidovan [[ucet]].
 
 == scenario ==
 
 System predlozi prazdny formular. Uzivatel zada udaje:
-- [[ucet]] {+}{i}
-- [[datum_transakce]] {+}{i}
-- [[castka_transakce]] {+}{i}
-- [[popis_transakce]] {+}{i}
-
+  - [[ucet]] {+}{i}
+  - [[datum_uskutecneni_transakce]] {+}{i}
+  - [[castka_transakce]] {+}{i}
+  - [[popis_transakce]] {i}
 
 Uzivatel odevzda vyplneny formular.
 
-System [[uc_val_validace_transakce|overi platnost]]. System zalozi novou kartu [[transakce]].
+System [[uc_val_validace_transakce|overi platnost]] zadanych udaje. System zalozi novou kartu [[transakce]].
 
 == postconditions ==
-- Je zalozen [[transakce]]. 
+  - Je zalozena [[transakce]]. 
 
 == errors ==
 
