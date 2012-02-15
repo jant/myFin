@@ -8,7 +8,7 @@ Uzivatel zrusi evidovany [[ucet]].
   
 == scenario ==
 
-Uzivatel urci [[ucet]], ktery chce zrusit.
+Uzivatel [[uc_det_urceni_uctu|urci]] [[ucet]], ktery chce zrusit.
 
 System zrusi kartu [[ucet]].
 

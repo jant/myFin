@@ -1,0 +1,21 @@
+= UseCase <<delete>> Zruseni transakce =
+
+== description ==
+
+Uzivatel zrusi evidovanou [[transakce]].
+
+== preconditions ==
+  
+== scenario ==
+
+Uzivatel [[uc_det_urceni_transakce|urci]] [[transakce]], kterou chce zrusit.
+
+System zrusi kartu [[transakce]].
+
+== postconditions ==
+  - Je zrusena [[transakce]]. 
+
+== errors ==
+
+
+

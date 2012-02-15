@@ -1,5 +1,7 @@
 = Package Class Model =
 
 [[cls_account]]
+[[cls_category]]
 [[cls_transaction]]
 
+[[fixtures]]

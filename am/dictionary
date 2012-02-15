@@ -1,4 +1,5 @@
 ac_bpg_myfin.am
+ac_bp_definice_kategorie.am
 ac_bp_definice_uctu.am
 ac_bp_evidence_transakce.am
 bla bla.am
@@ -6,8 +7,10 @@ castka_transakce.am
 cls_account.am
 cls_transaction.am
 datum_uskutecneni_transakce.am
+fixtures.am
 index.am
 jmeno_uctu.am
+kategorie.am
 pkg_bpm.am
 pkg_cm.am
 pkg_concept_dictionary.am
@@ -18,10 +21,12 @@ popis_uctu.am
 transakce.am
 ucet.am
 ucet_transakce.am
+uc_del_zruseni_transakce.am
 uc_del_zruseni_uctu.am
 uc_det_urceni_transakce.am
 uc_det_urceni_uctu .am
 uc_det_urceni_uctu.am
+uc_evidence_kategorie.am
 uc_evidence_transakce.am
 uc_evidence_uctu.am
 uc_ins_zalozeni_transakce.am

@@ -6,6 +6,13 @@ Aby bylo mozne tok a stav financi v domacnosti vubec sledovat, musi domacnost
 nejprve definovat ucty, na kterych se jeji penize nachazeji a jejichz stav bude
 podlehat sledovani. Viz [[ac_bp_definice_uctu]].
 
+Aby byla mozne vydaje analyzovat podle jejich povahy a ucelu, musi domacnost
+nejprve definovat kategorie, ktere chce sledovat. Viz
+[[ac_bp_definice_kategorie]]. Kazdy vydaj potom zaradi do jedne ze sledovanych
+kategorii. 
+
+TODO kategorie vysvetlit lepe
+
 Pokazde, kdyz z nektereho sledovaneho uctu domacnost penize vybere nebo naopak
 na ucet penize vlozi, tak je treba tuto skutecnost zaevidovat. Viz
 [[ac_bp_evidence_transakce]].

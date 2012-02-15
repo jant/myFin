@@ -1,0 +1,104 @@
+= ucty =
+
+penezenka:
+  name: penezenka
+  descr: moje penezenka
+
+bezny:
+  name: bezny
+  descr: bezny ucet u CSOB
+
+kreditka:
+  name: kreditka
+  descr: kreditni karta od UniCredit
+
+pujcka:
+  name: pujcka
+  descr: pujcka od rodicu
+
+
+= kategorie =
+
+vyplata:
+  name: vyplata
+  inc_exp: prijem
+  descr: adamova vyplata ze zamestnani
+
+rodicovsky:
+  name: rodicovsky
+  inc_exp: prijem
+  descr: rodicovsky prispevek
+
+jidlo:
+  name: jidlo
+  inc_exp: vydaj
+  descr: jidlo
+
+bydleni:
+  name: bydleni
+  inc_exp: vydaj
+  descr: sluzby spojene s bydlenim: el, plyn, internet, TV, SV, teplo, voda, fond oprav, sprava domu
+
+auto:
+  name: auto
+  inc_exp: vydaj
+  descr: udrzba auta - opravy, STK, pov. ruceni
+
+benzin:
+  name: benzin
+  inc_exp: vydaj
+  descr: benzin
+
+hypoteka:
+  name: hypoteka
+  inc_exp: vydaj
+  descr: hypoteka na byt
+
+adam:
+  name: adam
+  inc_exp: vydaj
+  descr: osobni adamovy vydaje
+
+eva:
+  name: eva
+  inc_exp: vydaj
+  descr: osobni eviny vydaje
+
+syn:
+  name: syn
+  inc_exp: vydaj
+  descr: co nas stoji synek
+
+poplatek:
+  name: poplatek
+  inc_exp: vydaj
+  descr: poplatky bance aj.
+
+
+= prijmy =
+28000 vyplata
+7500 rodicovsky prispevek
+
+= vydaje =
+5300 bydleni - provoz bytu
+  400 elektrina
+  200 plyn
+  300 internet
+  100 TV a rozhlas / placene rocne
+  100 popelnice / placene rocne
+  600 TUV
+  400 SV
+  1200 teplo
+  2000 sprava domu - fond oprav aj.
+
+500 penzijni pojisteni
+8000 jidlo
+2000 syn
+4000 manzelka
+5000 3000 osobni vydaje + obedy - vice ruznych polozek
+5000 hypoteka 4800 + 200
+1000 auto
+2000 benzin
+
+
+

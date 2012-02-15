@@ -10,14 +10,14 @@ Uzivatel zada udaje a system zalozi novou [[transakce]].
 == scenario ==
 
 System predlozi prazdny formular. Uzivatel zada udaje:
-  - [[ucet]] {+}{i}
-  - [[datum_uskutecneni_transakce]] {+}{i}
-  - [[castka_transakce]] {+}{i}
-  - [[popis_transakce]] {i}
+  - [[ucet_transakce]]{+}{i} prostrednictvim [[uc_det_urceni_uctu]]
+  - [[datum_uskutecneni_transakce]]{+}{i}
+  - [[castka_transakce]]{+}{i}
+  - [[popis_transakce]]{i}
 
 Uzivatel odevzda vyplneny formular.
 
-System [[uc_val_validace_transakce|overi platnost]] zadanych udaje. System zalozi novou kartu [[transakce]].
+System [[uc_val_validace_transakce|overi platnost]] zadanych udaju. System zalozi novou kartu [[transakce]].
 
 == postconditions ==
   - Je zalozena [[transakce]]. 

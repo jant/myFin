@@ -1,0 +1,9 @@
+= Activity <<Business Process>> Definice kategorie =
+
+Typickymi vydajovymi kategoriemi jsou jidlo, bydleni, auto, benzin. Ale kazdy
+spravce domacich financi si potrebuje vytvorit kategorie podle svych potreb.
+
+K definici kategorie v systemu spravce domaci kasy pouzije
+[[uc_evidence_kategorie]]. Definici kategorie musi spravce domaci kasy provest
+jednorazove na zacatku pouzivani systemu. Dalsi kategorie muze v budoucnu
+pridat.

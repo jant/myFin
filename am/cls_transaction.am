@@ -8,12 +8,12 @@ attributes
   -- [[popis_transakce]]
   descr: String
 end
+
+association TransactionAccount between
+  Transaction[*]
   -- [[ucet_transakce]]
-  association TransactionAccount between
-    Transaction[*]
-    -- [[ucet]]
-    Account[1]
-  end
+  Account[1]
+end
 
 
 constraints

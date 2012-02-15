@@ -1,0 +1,22 @@
+= UseCase <<register>> Evidence kategorie =
+
+== description ==
+
+Zalozeni/zmena/zruseni [[kategorie]].
+
+== preconditions ==
+
+== scenario ==
+
+Pro zalozeni nove [[kategorie]] uzivatel pouzije [[uc_ins_zalozeni_kategorie]].
+
+Pro zmenu udaju jiz evidovane [[kategorie]] uzivatel pouzije [[uc_upd_zmena_kategorie]].
+
+Pro zruseni evidovane [[kategorie]] uzivatel pouzije [[uc_del_zruseni_kategorie]].
+
+== postconditions ==
+
+== errors ==
+
+
+
