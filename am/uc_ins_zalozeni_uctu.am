@@ -9,15 +9,15 @@ Uzivatel zada udaje a system zalozi novy [[ucet]].
 == scenario ==
 
 System predlozi prazdny formular. Uzivatel zada udaje:
-- [[jmeno_uctu]] {+}{i}
-- [[popis_uctu]]
+  - [[jmeno_uctu]] {+}{i}
+  - [[popis_uctu]]
 
 Uzivatel odevzda vyplneny formular.
 
 System [[uc_val_validace_uctu|overi platnost]] zadanych udaju. System zalozi novou kartu [[ucet]].
 
 == postconditions ==
-- Je zalozen [[ucet]]. 
+  - Je zalozen [[ucet]]. 
 
 == errors ==
 

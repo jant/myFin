@@ -1,0 +1,10 @@
+= Object <<concept>> Smer transakce =
+
+== description == 
+
+Rozliseni smeru [[transakce]] z pohledu domacnosti. Tzn. zda jde o prijem penez
+do domacnosti nebo o vydaj. 
+
+== examples ==
+  - "prijem"
+  - "vydaj"

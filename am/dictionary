@@ -9,6 +9,7 @@ cls_transaction.am
 datum_uskutecneni_transakce.am
 fixtures.am
 index.am
+jmeno_kategorie.am
 jmeno_uctu.am
 kategorie.am
 pkg_bpm.am
@@ -16,8 +17,10 @@ pkg_cm.am
 pkg_concept_dictionary.am
 pkg_ucm.am
 pokus.am
+popis_kategorie.am
 popis_transakce.am
 popis_uctu.am
+smer_transakce.am
 transakce.am
 ucet.am
 ucet_transakce.am
@@ -29,6 +32,7 @@ uc_det_urceni_uctu.am
 uc_evidence_kategorie.am
 uc_evidence_transakce.am
 uc_evidence_uctu.am
+uc_ins_zalozeni_kategorie.am
 uc_ins_zalozeni_transakce.am
 uc_ins_zalozeni_uctu.am
 uc_list_seznam_transakci.am

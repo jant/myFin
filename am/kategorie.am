@@ -1,8 +1,9 @@
-= Object <<Concept>> Kategorie =
+= Object <<Concept>> Kategorie transakce =
 
-== description ==
-Znacka charakterizujici povahu a ucel vydaje. Napr. benzin, jidlo,
-bydleni, auto.
+== description == 
+
+Charakteristika povahy a ucelu [[transakce]]. Napr. benzin,
+jidlo, bydleni, auto.
 
 Pomoci systemu kategorii se vsechny vydaje daji roztridit do skupin, kdy v kazde
 skupine budou vydaje stejne povahy, coz umozni snadnou analyzu vydaju.

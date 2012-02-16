@@ -1,4 +1,5 @@
 = Object <<Concept>> Transakce =
 
 == description ==
-Pohyb penez na uctu. Prijem nebo vydej.
+
+Financni transakce. Pohyb penez (prijem nebo vydaj) na uctu.

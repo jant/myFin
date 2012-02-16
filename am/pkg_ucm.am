@@ -6,10 +6,10 @@ Vnejsi UC (tzn. ty, ktere spousti primo uzivatel):
   [[uc_ins_zalozeni_uctu]]
   [[uc_upd_zmena_uctu]]
   [[uc_del_zruseni_uctu]]
+[[uc_evidence_kategorie]]
+  [[uc_ins_zalozeni_kategorie]]
 [[uc_evidence_transakce]]
   [[uc_ins_zalozeni_transakce]]
   [[uc_upd_zmena_transakce]]
   [[uc_del_zruseni_transakce]]
-[[uc_evidence_kategorie]]
-  [[uc_ins_zalozeni_kategorie]]
 

@@ -11,7 +11,7 @@ end
 
 association TransactionAccount between
   Transaction[*]
-  -- [[ucet_transakce]]
+  -- [[ucet]]
   Account[1]
 end
 
