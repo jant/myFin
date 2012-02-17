@@ -2,7 +2,11 @@
 
 == description == 
 
-Libovolny vystizny kratky text identifikujici [[ucet]]. Napr.  "penezenka", "bezny
-ucet", "kreditka".
+Libovolny vystizny kratky text identifikujici [[ucet]]. 
+
+== examples ==
+  - "penezenka"
+  - "bezny ucet"
+  - "kreditka"
 
 

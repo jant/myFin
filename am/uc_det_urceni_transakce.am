@@ -9,7 +9,7 @@ Uzivatel urci prave jednu [[transakce]] evidovanou v systemu.
 == scenario ==
 
 System predlozi prazdny formular. Uzivatel zada nasledujici identifikacni udaje:
-  - [[ucet]]
+  - [[ucet]] prostrednictvim [[uc_det_urceni_uctu]]
   - [[datum_uskutecneni_transakce]]
   - [[castka_transakce]]
   - [[popis_transakce]]

@@ -11,14 +11,14 @@ Uzivatel u jiz evidovaneho [[ucet]] zmeni nektere udaje.
 Uzivatel [[uc_det_urceni_uctu |urci]] [[ucet]], jehoz udaje chce zmenit.
 
 System predlozi formular vyplneny udaji urceneho [[ucet]]. Uzivatel zada udaje:
-- [[jmeno_uctu]] {+}{i}
-- [[popis_uctu]]
+  - [[jmeno_uctu]] {+}{i}
+  - [[popis_uctu]]
 
 Uzivatel odevzda vyplneny formular.
 
 System [[uc_val_validace_uctu|overi platnost]] zadanych udaju. System zmeni udaje na karte [[ucet]].
 
 == postconditions ==
-- Je zmenen [[ucet]]. 
+  - Je zmenen [[ucet]]. 
 
 == errors ==

@@ -1,0 +1,12 @@
+= Object <<concept>> Jmeno kategorie transakce =
+
+== description == 
+
+Libovolny vystizny kratky text identifikujici [[kategorie_transakce]]. 
+
+== examples ==
+  - "bydleni"
+  - "benzin"
+  - "hypoteka"
+
+

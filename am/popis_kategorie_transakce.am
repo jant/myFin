@@ -1,0 +1,11 @@
+= Object <<concept>> Popis kategorie transakce =
+
+== description == 
+
+Libovolny text popisujici podrobneji pouziti [[kategorie_transakce]]. 
+
+== examples ==
+  - "vydaje na bydleni: najemne, sluzby..."
+  - "kolik utratime za benzin"
+  - "splatky hypoteky na byt"
+

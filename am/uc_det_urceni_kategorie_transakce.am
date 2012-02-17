@@ -1,0 +1,27 @@
+= UseCase <<determination>> Urceni kategorie transakce =
+
+== description ==
+
+Uzivatel urci prave jednu [[kategorie_transakce]] evidovanou v systemu.
+
+== preconditions ==
+
+== scenario ==
+
+System predlozi prazdny formular. Uzivatel zada nasledujici identifikacni udaje:
+  - [[jmeno_kategorie_transakce]]
+
+Pro zjisteni, ktere [[kategorie_transakce]] jsou v systemu evidovane, uzivatel
+pouzije [[uc_list_seznam_kategorii_transakce|seznam]].
+  
+Pokud zadanemu jmenu neodpovida zadna evidovana [[kategorie_transakce]], tak ERR1.
+
+== postconditions ==
+  - Je urcena [[kategorie_transakce]]. 
+
+== errors ==
+  # [[kategorie_transakce]] s [[jmeno_kategorie_transakce]] = [%1] neni
+    evidovana.
+
+
+

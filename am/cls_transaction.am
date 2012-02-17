@@ -10,10 +10,23 @@ attributes
 end
 
 association TransactionAccount between
-  Transaction[*]
-  -- [[ucet]]
+  Transaction[1..*]
+  -- [[ucet_na]]
   Account[1]
 end
+
+composition TransactionDirection between
+  Transaction[1]
+  -- [[smer_transakce_v]]
+  Direction[1]
+end
+
+association TransactionCategory between
+  Transaction[*]
+  -- [[kategorie_transakce_v]]
+  Category[1]
+end
+
 
 
 constraints
@@ -23,9 +36,10 @@ context Transaction
     i1.account <> i2.account or i1.date <> i2.date or i1.amount <> i2.amount or i1.descr <> i2.descr)
   inv inv2: account <> null
   inv inv3: date <> null
-  inv inv4: amount <> null
-  inv inv5: amount <> 0
-  inv inv6: descr.size <= 80
+  inv inv4: direction <> null
+  inv inv5: amount <> null
+  inv inv6: amount > 0
+  inv inv7: descr.size <= 80
 
 
 

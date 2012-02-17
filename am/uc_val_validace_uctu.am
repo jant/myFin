@@ -10,19 +10,19 @@ omezeni a jsou platne.
 == scenario ==
 
 Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
-# jednoznacnost: [[jmeno_uctu]]
-# [[jmeno_uctu]] je povinne
-# [[jmeno_uctu]] <= 20
-# [[popis_uctu]] <= 80
+  # jednoznacnost: [[jmeno_uctu]]
+  # [[jmeno_uctu]] je povinne
+  # [[jmeno_uctu]] <= 20
+  # [[popis_uctu]] <= 80
 
 == postconditions ==
-- Udaje na formulari splnuji systemova omezeni a jsou platne.
+  - Udaje na formulari splnuji systemova omezeni a jsou platne.
 
 == errors ==
-# Jiz je evidovan jiny [[ucet]] se [[jmeno_uctu]] = [%1].
-# [[jmeno_uctu]] je povinne.
-# [[jmeno_uctu]] [%1] muze obsahovat maximalne 20 znaku.
-# [[popis_uctu]] [%1] muze obsahovat maximalne 80 znaku.
+  # Jiz je evidovan jiny [[ucet]] se [[jmeno_uctu]] = [%1].
+  # [[jmeno_uctu]] je povinne.
+  # [[jmeno_uctu]] [%1] muze obsahovat maximalne 20 znaku.
+  # [[popis_uctu]] [%1] muze obsahovat maximalne 80 znaku.
 
 
 

@@ -1,0 +1,29 @@
+= UseCase <<update>> Zmena kategorie transakce =
+
+== description ==
+
+Uzivatel u jiz evidovane [[kategorie_transakce]] zmeni nektere udaje.
+
+== preconditions ==
+  - Je evidovana [[kategorie_transakce]] 
+
+== scenario ==
+
+Uzivatel [[uc_det_urceni_kategorie_transakce|urci]] [[kategorie_transakce]],
+jejiz udaje chce zmenit.
+
+System predlozi formular vyplneny udaji urceneho [[ucet]]. Uzivatel zada udaje:
+  - [[jmeno_kategorie_transakce]]{+}{i}
+  - [[smer_transakce_pro]]{+} prostrednictvim [[uc_det_urceni_smeru_transakce]] 
+  - [[popis_kategorie_transakce]]
+
+Uzivatel odevzda vyplneny formular.
+
+System [[uc_val_validace_kategorie_transakce|overi platnost]] zadanych udaju. System zmeni udaje na karte [[kategorie_transakce]].
+
+== postconditions ==
+  - Je zmenena [[kategorie_transakce]]. 
+
+== errors ==
+
+

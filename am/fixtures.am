@@ -21,57 +21,57 @@ pujcka:
 
 vyplata:
   name: vyplata
-  inc_exp: prijem
+  direct: prijem
   descr: adamova vyplata ze zamestnani
 
 rodicovsky:
   name: rodicovsky
-  inc_exp: prijem
+  direct: prijem
   descr: rodicovsky prispevek
 
 jidlo:
   name: jidlo
-  inc_exp: vydaj
+  direct: vydaj
   descr: jidlo
 
 bydleni:
   name: bydleni
-  inc_exp: vydaj
+  direct: vydaj
   descr: sluzby spojene s bydlenim: el, plyn, internet, TV, SV, teplo, voda, fond oprav, sprava domu
 
 auto:
   name: auto
-  inc_exp: vydaj
+  direct: vydaj
   descr: udrzba auta - opravy, STK, pov. ruceni
 
 benzin:
   name: benzin
-  inc_exp: vydaj
+  direct: vydaj
   descr: benzin
 
 hypoteka:
   name: hypoteka
-  inc_exp: vydaj
+  direct: vydaj
   descr: hypoteka na byt
 
 adam:
   name: adam
-  inc_exp: vydaj
+  direct: vydaj
   descr: osobni adamovy vydaje
 
 eva:
   name: eva
-  inc_exp: vydaj
+  direct: vydaj
   descr: osobni eviny vydaje
 
 syn:
   name: syn
-  inc_exp: vydaj
+  direct: vydaj
   descr: co nas stoji synek
 
 poplatek:
   name: poplatek
-  inc_exp: vydaj
+  direct: vydaj
   descr: poplatky bance aj.
 
 

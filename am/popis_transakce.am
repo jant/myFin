@@ -1,5 +1,10 @@
-= Object <<Concept>> Popis transakce  =
+= Object <<Concept>> Popis transakce =
 
 == description ==
+
 Libovolny text popisujici transakci.
 
+== examples ==
+  - "plinky"
+  - "splatka hypoteky"
+  - "nakup potravin v Hypernove"

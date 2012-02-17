@@ -1,5 +1,10 @@
 = Object <<Concept>> Popis uctu =
 
 == description ==
-Libovolny text popisujici podrobneji [[ucet]]. Napr. "Bezny ucet u CSOB", "Kreditni karta od UniCredit".
+
+Libovolny text popisujici podrobneji [[ucet]].
+
+== examples ==
+  - "Bezny ucet u CSOB"
+  - "Kreditni karta od UniCredit"
 

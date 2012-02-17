@@ -15,4 +15,3 @@ context Account
   inv inv2: name <> null
   inv inv3: name.size <= 20
   inv inv4: descr.size <= 80
-

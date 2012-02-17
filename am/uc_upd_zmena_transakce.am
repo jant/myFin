@@ -5,17 +5,19 @@
 Uzivatel u jiz evidovane [[transakce]] zmeni nektere udaje.
 
 == preconditions ==
-  - Je evidovan [[ucet]] 
+  - Je evidovana [[transakce]] 
 
 == scenario ==
 
 Uzivatel [[uc_det_urceni_transakce|urci]] [[transakce]], jejiz udaje chce zmenit.
 
-System predlozi formular vyplneny udaji urceneho [[transakce]]. Uzivatel zada udaje:
-  - [[ucet]] {+}{i}
-  - [[datum_uskutecneni_transakce]] {+}{i}
-  - [[castka_transakce]] {+}{i}
-  - [[popis_transakce]] {i}
+System predlozi formular vyplneny udaji urcene [[transakce]]. Uzivatel zada udaje:
+  - [[ucet_na]]{+}{i} prostrednictvim [[uc_det_urceni_uctu]] 
+  - [[datum_uskutecneni_transakce]]{+}{i}
+  - [[castka_transakce]]{+}{i}
+  - [[popis_transakce]]{i}
+  - [[kategorie_transakce_v]] prostrednictvim
+    [[uc_det_urceni_kategorie_transakce]]
 
 Uzivatel odevzda vyplneny formular.
 

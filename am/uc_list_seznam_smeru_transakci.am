@@ -1,0 +1,18 @@
+= UseCase <<list>> Seznam smeru transakci =
+
+== description ==
+
+System predlozi seznam systemem definovanych [[smer_transakce]].
+
+== preconditions ==
+
+== scenario ==
+
+System predlozi seznam systemem definovanych [[kod_smeru_transakce]] 
+  - "prijem"
+  - "vydaj"
+
+== postconditions ==
+
+== errors ==
+

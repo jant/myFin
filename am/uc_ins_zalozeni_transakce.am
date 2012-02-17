@@ -10,10 +10,13 @@ Uzivatel zada udaje a system zalozi novou [[transakce]].
 == scenario ==
 
 System predlozi prazdny formular. Uzivatel zada udaje:
-  - [[ucet_transakce]]{+}{i} prostrednictvim [[uc_det_urceni_uctu]]
+  - [[ucet_na]]{+}{i} prostrednictvim [[uc_det_urceni_uctu]]
   - [[datum_uskutecneni_transakce]]{+}{i}
+  - [[smer_transakce_v]] prostrednictvim [[uc_det_urceni_smeru_transakce]]
   - [[castka_transakce]]{+}{i}
   - [[popis_transakce]]{i}
+  - [[kategorie_transakce_v]] prostrednictvim
+    [[uc_det_urceni_kategorie_transakce]]
 
 Uzivatel odevzda vyplneny formular.
 

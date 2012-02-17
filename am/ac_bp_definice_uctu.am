@@ -6,7 +6,7 @@ uctem je i pujcka od kamarada. V zivote tedy sve penize protahujeme pres
 nekolik svych ruznych uctu. A to vsechno jenom proto, abychom je mohli nakonec
 spokojene utratit.
 
-K definici uctu v systemu spravce domaci kasy pouzije [[uc_evidence_uctu]].
+K definici uctu v systemu spravce domaci kasy pouzije [[uc_reg_evidence_uctu]].
 Definici uctu musi spravce domaci kasy provest jednorazove na zacatku pouzivani
 systemu. Dalsi ucty bude potrebovat nadefinovat v budoucnu v pripade, ze si
 casem otevre treba sporici ucet nebo zridi hypoteku na novy byt nebo bude chtit

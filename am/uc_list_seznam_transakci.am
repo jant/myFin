@@ -8,7 +8,7 @@ System predlozi seznam evidovanych [[transakce]].
 
 == scenario ==
 
-System predlozi seznam evidovanych [[transakce]], ktery obsahuje tyto udaje:
+System predlozi seznam evidovanych [[transakce]]. Kazda polozka seznamu obsahuje tyto udaje:
   - [[ucet]]
   - [[datum_uskutecneni_transakce]]
   - [[castka_transakce]]
