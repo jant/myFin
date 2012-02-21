@@ -21,58 +21,96 @@ pujcka:
 
 vyplata:
   name: vyplata
-  direct: prijem
+  for_direction: prijem
   descr: adamova vyplata ze zamestnani
 
 rodicovsky:
   name: rodicovsky
-  direct: prijem
+  for_direct: prijem
   descr: rodicovsky prispevek
 
 jidlo:
   name: jidlo
-  direct: vydaj
+  for_direct: vydaj
   descr: jidlo
 
 bydleni:
   name: bydleni
-  direct: vydaj
+  for_direct: vydaj
   descr: sluzby spojene s bydlenim: el, plyn, internet, TV, SV, teplo, voda, fond oprav, sprava domu
 
 auto:
   name: auto
-  direct: vydaj
+  for_direct: vydaj
   descr: udrzba auta - opravy, STK, pov. ruceni
 
 benzin:
   name: benzin
-  direct: vydaj
+  for_direct: vydaj
   descr: benzin
 
 hypoteka:
   name: hypoteka
-  direct: vydaj
+  for_direct: vydaj
   descr: hypoteka na byt
 
 adam:
   name: adam
-  direct: vydaj
+  for_direct: vydaj
   descr: osobni adamovy vydaje
 
 eva:
   name: eva
-  direct: vydaj
+  for_direct: vydaj
   descr: osobni eviny vydaje
 
 syn:
   name: syn
-  direct: vydaj
+  for_direct: vydaj
   descr: co nas stoji synek
 
 poplatek:
   name: poplatek
-  direct: vydaj
+  for_direct: vydaj
   descr: poplatky bance aj.
+
+
+= transakce =
+
+bezny_2010-12-31:
+  for_acc: bezny
+  realiz_date: 2010-12-31
+  amount: 6859
+  descr: pocatecni stav
+  in_categ: nil
+
+bezny_20110105_bydleni:
+  for_acc: bezny
+  realiz_date: 2011-01-05
+  amount: 5300
+  descr: uhrada za uzivani bytu
+  in_categ: bydleni
+
+bezny_20110105_adam:
+  for_acc: bezny
+  realiz_date: 2011-01-05
+  amount: 500
+  descr: penzijni pojisteni
+  in_categ: adam
+
+bezny_20110107_rodicovsky:
+  for_acc: bezny
+  realiz_date: 2011-01-07
+  amount: 7500
+  descr: sprava socialniho zabezpeceni
+  in_categ: rodicovsky
+
+bezny_20110117_vyplata:
+  for_acc: bezny
+  realiz_date: 2011-01-17
+  amount: 28000
+  descr: FIRMA, a.s.
+  in_categ: vyplata
 
 
 = prijmy =

@@ -10,9 +10,9 @@ System predlozi seznam evidovanych [[transakce]].
 
 System predlozi seznam evidovanych [[transakce]]. Kazda polozka seznamu obsahuje tyto udaje:
   - [[ucet]]
-  - [[datum_uskutecneni_transakce]]
-  - [[castka_transakce]]
-  - [[popis_transakce]]
+  - [[datum_uskutecneni_trans]]
+  - [[castka_trans]]
+  - [[popis_trans]]
 
 == postconditions ==
 

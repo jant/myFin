@@ -1,0 +1,16 @@
+= Object <<concept>> Jmeno kategorie =
+
+== translation ==
+
+Category Name (Categ. Name)
+
+== description == 
+
+Libovolny vystizny kratky text identifikujici [[kategorie]]. 
+
+== examples ==
+  - "bydleni"
+  - "benzin"
+  - "hypoteka"
+
+

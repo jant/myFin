@@ -8,17 +8,17 @@ Uzivatel urci [[smer_transakce]].
 
 == scenario ==
 
-System predlozi prazdny formular. Uzivatel zada [[kod_smeru_transakce]].
+System predlozi prazdny formular. Uzivatel zada [[kod_smeru_trans]].
 
 Pro zjisteni, ktere [[smer_transakce]] jsou systemem definovane, uzivatel pouzije
 [[uc_list_seznam_smeru_transakci|seznam]].
   
-Pokud zadany [[kod_smeru_transakce]] neni systemem definovany, tak ERR1.
+Pokud zadany [[kod_smeru_trans]] neni systemem definovany, tak ERR1.
 
 == postconditions ==
   - Je urcen [[smer_transakce]]. 
 
 == errors ==
-  # [[kod_smeru_transakce]] = [%1] neni systemem definovany.
+  # [[kod_smeru_trans]] = [%1] neni systemem definovany.
 
 

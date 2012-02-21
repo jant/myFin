@@ -10,9 +10,9 @@ Uzivatel urci prave jednu [[transakce]] evidovanou v systemu.
 
 System predlozi prazdny formular. Uzivatel zada nasledujici identifikacni udaje:
   - [[ucet]] prostrednictvim [[uc_det_urceni_uctu]]
-  - [[datum_uskutecneni_transakce]]
-  - [[castka_transakce]]
-  - [[popis_transakce]]
+  - [[datum_uskutecneni_trans]]
+  - [[castka_trans]]
+  - [[popis_trans]]
 
 Pro zjisteni, ktere [[transakce]] jsou v systemu evidovane, uzivatel pouzije
 [[uc_list_seznam_transakci|seznam]].
@@ -23,6 +23,6 @@ Pokud zadanym identifikacnim udajum neodpovida zadna evidovana [[transakce]], ta
   - Je urcena [[transakce]]. 
 
 == errors ==
-  # [[transakce]] s [[ucet]] = [%1], [[datum_uskutecneni_transakce]] = [%2],
-    [[castka_transakce]] = [%3], [[popis_transakce]] = [%4] neni evidovana.
+  # [[transakce]] s [[ucet]] = [%1], [[datum_uskutecneni_trans]] = [%2],
+    [[castka_trans]] = [%3], [[popis_trans]] = [%4] neni evidovana.
 

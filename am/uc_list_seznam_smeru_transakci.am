@@ -8,7 +8,7 @@ System predlozi seznam systemem definovanych [[smer_transakce]].
 
 == scenario ==
 
-System predlozi seznam systemem definovanych [[kod_smeru_transakce]] 
+System predlozi seznam systemem definovanych [[kod_smeru_trans]] 
   - "prijem"
   - "vydaj"
 

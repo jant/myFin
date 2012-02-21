@@ -10,6 +10,9 @@ Uzivatel zrusi evidovany [[ucet]].
 
 Uzivatel [[uc_det_urceni_uctu|urci]] [[ucet]], ktery chce zrusit.
 
+System provede pro vsechny [[transakce]], u kterych [[trans_na_uctu]] = ruseny ucet,
+[[uc_del_zruseni_transakce]].
+
 System zrusi kartu [[ucet]].
 
 == postconditions ==

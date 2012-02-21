@@ -1,5 +1,9 @@
 = Object <<Concept>> Popis transakce =
 
+== translation ==
+
+Transaction Description (Trans. Descr.)
+
 == description ==
 
 Libovolny text popisujici transakci.

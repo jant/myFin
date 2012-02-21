@@ -1,0 +1,11 @@
+= Object <<Concept>> Datum uskutecneni transakce =
+
+== translation ==
+
+Transaction Realization Date (Trans. Real. Date)
+
+== description ==
+Datum, kdy se [[transakce]] uskutecnila.
+
+== examples ==
+  - 2011-01-05

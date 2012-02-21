@@ -1,0 +1,27 @@
+= UseCase <<delete>> Zruseni kategorie =
+
+== description ==
+
+Uzivatel zrusi evidovanou [[kategorie]].
+
+== preconditions ==
+  - Je evidovana [[kategorie]] 
+
+== scenario ==
+
+Uzivatel [[uc_det_urceni_kategorie|urci]] [[kategorie]],
+kterou chce zrusit.
+
+System provede pro vsechny transakce, u kterych [[trans_v_kategorii]] = rusena
+kategorie, [[uc_upd_zmena_transakce]]:
+  - [[trans_v_kategorii]] = nil
+
+System zrusi kartu [[kategorie]].
+
+== postconditions ==
+  - Je zrusena [[kategorie]]. 
+
+== errors ==
+
+
+

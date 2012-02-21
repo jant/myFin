@@ -1,0 +1,24 @@
+= UseCase <<list>> Seznam kategorii =
+
+== description ==
+
+System predlozi seznam evidovanych [[kategorie]].
+
+== preconditions ==
+
+== scenario ==
+
+System predlozi seznam evidovanych [[kategorie]]. Kazda polozka seznamu obsahuje tyto udaje:
+  - [[jmeno_kateg]]
+  - [[kod_smeru_trans]] < [[kateg_pro_smer]]
+  - [[popis_kateg]]
+
+== postconditions ==
+
+== errors ==
+
+ 
+
+
+
+

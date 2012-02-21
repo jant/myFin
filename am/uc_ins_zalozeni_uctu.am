@@ -11,6 +11,7 @@ Uzivatel zada udaje a system zalozi novy [[ucet]].
 System predlozi prazdny formular. Uzivatel zada udaje:
   - [[jmeno_uctu]] {+}{i}
   - [[popis_uctu]]
+  - TODO mozna rozliseni, zda ucet je/neni pujcka
 
 Uzivatel odevzda vyplneny formular.
 

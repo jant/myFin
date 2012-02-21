@@ -1,45 +1,38 @@
 -- [[transakce]] 
 class Transaction
 attributes
-  -- [[datum_uskutecneni_transakce]] 
+  -- [[datum_uskutecneni_trans]] 
   realiz_date: Date
-  -- [[castka_transakce]]
+  -- [[castka_trans]]
   amount: Real
-  -- [[popis_transakce]]
+  -- [[popis_trans]]
   descr: String
 end
 
-association TransactionAccount between
-  Transaction[1..*]
-  -- [[ucet_na]]
-  Account[1]
-end
-
-composition TransactionDirection between
-  Transaction[1]
-  -- [[smer_transakce_v]]
-  Direction[1]
-end
-
-association TransactionCategory between
+association TransAcc between
   Transaction[*]
-  -- [[kategorie_transakce_v]]
-  Category[1]
+  -- [[trans_na_uctu]]
+  Account[1] on_account
 end
 
+association TransCateg between
+  Transaction[*]
+  -- [[trans_v_kategorii]]
+  Category[0..1] in_categ
+end
 
 
 constraints
+-- viz [[uc_val_validace_transakce]]
 
 context Transaction
   inv inv1: Transaction.allInstances->forAll(i1,i2 | i1 <> i2 implies
     i1.account <> i2.account or i1.date <> i2.date or i1.amount <> i2.amount or i1.descr <> i2.descr)
   inv inv2: account <> null
   inv inv3: date <> null
-  inv inv4: direction <> null
-  inv inv5: amount <> null
-  inv inv6: amount > 0
-  inv inv7: descr.size <= 80
+  inv inv4: amount <> null
+  inv inv5: amount <> 0
+  inv inv6: descr.size <= 80
 
 
 

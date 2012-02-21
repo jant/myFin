@@ -15,7 +15,6 @@ Pro zmenu udaju jiz evidovaneho [[ucet]] uzivatel pouzije [[uc_upd_zmena_transak
 Pro zruseni evidovaneho [[ucet]] uzivatel pouzije [[uc_del_zruseni_transakce]].
 
 == postconditions ==
-- Je zalozen/zmenen/zrusen [[transakce]]. 
 
 == errors ==
 

@@ -12,12 +12,12 @@ Uzivatel u jiz evidovane [[transakce]] zmeni nektere udaje.
 Uzivatel [[uc_det_urceni_transakce|urci]] [[transakce]], jejiz udaje chce zmenit.
 
 System predlozi formular vyplneny udaji urcene [[transakce]]. Uzivatel zada udaje:
-  - [[ucet_na]]{+}{i} prostrednictvim [[uc_det_urceni_uctu]] 
-  - [[datum_uskutecneni_transakce]]{+}{i}
-  - [[castka_transakce]]{+}{i}
-  - [[popis_transakce]]{i}
-  - [[kategorie_transakce_v]] prostrednictvim
-    [[uc_det_urceni_kategorie_transakce]]
+  - [[trans_na_uctu]]{+}{i} prostrednictvim [[uc_det_urceni_uctu]] 
+  - [[datum_uskutecneni_trans]]{+}{i}
+  - [[castka_trans]]{+}{i}
+  - [[popis_trans]]{i}
+  - [[trans_v_kategorii]] prostrednictvim
+    [[uc_det_urceni_kategorie]]
 
 Uzivatel odevzda vyplneny formular.
 

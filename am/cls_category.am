@@ -1,24 +1,25 @@
--- [[kategorie_transakce]]
+-- [[kategorie]]
 class Category 
 attributes
-  -- [[jmeno_kategorie_transakce]]
+  -- [[jmeno_kateg]]
   name: String
-  -- [[popis_kategorie_transakce]]
+  -- [[popis_kateg]]
   descr: String
 end
 
 composition CategoryDirection between
   Category[1]
-  -- [[smer_transakce_pro]]
-  Direction[1]
+  -- [[kateg_pro_smer]]
+  Direction[1] for_direct
 end
 
 
 constraints
+-- viz [[uc_val_validace_kategorie]]
 
 context Category
   inv inv1: Category.allInstances->forAll(i1,i2 | i1 <> i2 implies i1.name <> i2.name)
   inv inv2: name <> null
-  inv inv3: direction <> null
+  inv inv3: for_direct <> null
   inv inv4: name.size <= 20
   inv inv5: descr.size <= 80

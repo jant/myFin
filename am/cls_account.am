@@ -2,13 +2,13 @@
 class Account
 attributes
   -- [[jmeno_uctu]]   
-  name : String
+  name: String
   -- [[popis_uctu]]
-  descr : String
+  descr: String
 end
 
-
 constraints
+-- viz [[uc_val_validace_uctu]]
 
 context Account
   inv inv1: Account.allInstances->forAll(i1,i2 | i1 <> i2 implies i1.name <> i2.name)
