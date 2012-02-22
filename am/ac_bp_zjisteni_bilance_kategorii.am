@@ -1,0 +1,10 @@
+= Activity <<Business Process>> Zjisteni bilance kategorii =
+
+Vzdy po skonceni nejakeho casoveho obdobi, typicky mesice nebo roku je treba
+provest analyzu struktury vydaju. (Prijmy - aspon v nasi domacnosti - se v case
+prilis nemeni, takze neni nutne je prilis rozebirat). K tomu se vyuzije
+[[uc_rep_bilance_kategorii]], co je prehled, ktery zobrazi bilanci (neboli
+celkovy pohyb, zmenu) kazde kategorie v aktualnim mesici, v jednotlivych
+predchozich mesicich, v aktualnim roce a v predchozich letetech. Diky tomu je
+mozne porovnat, jestli domacnost utratila v danem mesici vice nebo mene nez v
+predchozich mesicich a za co utraci.

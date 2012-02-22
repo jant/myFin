@@ -1,0 +1,14 @@
+= Activity <<Business Process>> Prevod mezi ucty =
+
+Pokud domacnost vybere penize v bankomatu z bezneho uctu a vlozi je do
+penezenky, tak probehnou v jednom okamziku 2 transakce. Prvni transakci je
+vydaj z bezneho uctu. Druhou transakci je prijem penez do penezenky. Ale celkovy
+zustatek financi domacnosti se nemeni - co se vybere z jednoho uctu, tak se
+vlozi na druhy. Jedna se pouze o prevod penez mezi ucty.
+
+Prevodove transakce je potreba evidovat specialnim zpusobem, protoze castka
+prevodovych transakci, na rozdil od normalniho vydaje napr. za jidlo, se
+nesmi zapocitavat do mesicni bilance vydaju. Vydaje by byly zkreslene o
+technicky, nepodstatny, interni vydaj. Proto (a protoze je to ryhlejsi,
+nez evidovat 2 protikladne transkace jednu po druhe) se pro prevod penez z jednoho
+uctu na druhy pouzije [[uc_prevod_mezi_ucty]].

@@ -1,0 +1,12 @@
+= Activity <<Business Process>> Zjisteni zustatku uctu =
+
+Kdykoliv domacnost potrebuje pro kontrolu zjistit, jaky je na jednotlivych
+uctech (a take vsech uctech celkem) zustatek, tak pouzije
+[[uc_rep_zustatky_uctu]]. Typicky vzdy, kdyz je protreba provest nejakou
+neplanovanou vetsi investici, tak je nutne zjistit, zda na to je k dispozici v
+rozpoctu dost penez. Nebo kdyz potreba zkontrolovat, zda realny stav bankovniho
+uctu (zjisteny prihlasenim k internetovemu bankovnictvi nebo z vypisu) k
+dnesnimu dni odpovida evidovanemu stavu - tzn. zda nedoslo k nejake chybe v
+evidenci transakci nebo naopak k chybe napr. v bance.
+
+

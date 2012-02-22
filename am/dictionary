@@ -2,6 +2,9 @@ ac_bpg_myfin.am
 ac_bp_definice_kategorie.am
 ac_bp_definice_uctu.am
 ac_bp_evidence_transakce.am
+ac_bp_prevod_mezi_ucty.am
+ac_bp_zjisteni_bilance_kategorii.am
+ac_bp_zjisteni_zustatku_uctu.am
 castka_trans.am
 cls_account.am
 cls_category.am
@@ -42,9 +45,9 @@ uc_list_seznam_kategorii.am
 uc_list_seznam_smeru_transakci.am
 uc_list_seznam_transakci.am
 uc_list_seznam_uctu.am
+uc_reg_evidence_kategorie.am
 uc_reg_evidence_transakce.am
 uc_reg_evidence_uctu.am
-uc_reg_zmena_kategorie.am
 uc_upd_zmena_kategorie.am
 uc_upd_zmena_transakce.am
 uc_upd_zmena_uctu.am

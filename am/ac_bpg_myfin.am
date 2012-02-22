@@ -7,14 +7,24 @@ nejprve definovat ucty, na kterych se jeji penize nachazeji a jejichz stav bude
 podlehat sledovani. Viz [[ac_bp_definice_uctu]].
 
 Aby byla mozne vydaje analyzovat podle jejich povahy a ucelu, musi domacnost
-nejprve definovat kategorie, ktere chce sledovat. Viz
+nejprve definovat kategorie vydaju, ktere chce sledovat. Viz
 [[ac_bp_definice_kategorie]]. Kazdy vydaj potom zaradi do jedne ze sledovanych
 kategorii. 
 
-TODO kategorie vysvetlit lepe
+Pokazde, kdyz z nektereho sledovaneho uctu domacnost penize vybere (vydaj) nebo
+naopak na ucet penize vlozi (prijem), tak je treba tuto skutecnost zaevidovat.
+Viz [[ac_bp_evidence_transakce]].
 
-Pokazde, kdyz z nektereho sledovaneho uctu domacnost penize vybere nebo naopak
-na ucet penize vlozi, tak je treba tuto skutecnost zaevidovat. Viz
-[[ac_bp_evidence_transakce]].
-  
+Prevod penez z jednoho uctu na druhy je nutne take evidovat, aby zustatky uctu
+zustavaly spravne. Viz [[ac_bp_prevod_mezi_ucty]].
+
+Samotna evidence jednotlivych transakci by byla samoucelna. Smyslem evidence je
+nejaky uzitek, kvuli kteremu travim cas kazdodennim zapisovanim vydaju. Tim
+uzitkem je rychly informacni servis, ktery mi muze system poskytnout. Z
+evidovanych dat je mozne snadno zjistit:
+  - zustatky na jednotlivych uctech k danemu datumu (ke dnesku, ke koncum
+    predchozich mesicu...). Viz [[ac_bp_zjisteni_zustatku_uctu]]
+  - bilanci prijmu a vydaju za zvolene casove obdobi (za mesice, za roky...)
+    podle kategorii. Viz [[ac_bp_zjisteni_bilance_kategorii]]
+
 
