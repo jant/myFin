@@ -16,7 +16,7 @@ System provede pro vsechny [[transakce]], u kterych [[trans_na_uctu]] = ruseny u
 System zrusi kartu [[ucet]].
 
 == postconditions ==
-- Je zrusen [[ucet]]. 
+  - Je zrusen [[ucet]]. 
 
 == errors ==
 

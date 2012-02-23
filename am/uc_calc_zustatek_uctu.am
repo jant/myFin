@@ -1,0 +1,7 @@
+- uzivatel zada
+  - ucet, datum
+  
+- system najde vsechny transakce zadaneho uctu, ktere maji
+  [[datum_uskutecneni_trans]] <= zadane datum a secte jejich [[castka_trans]]
+
+- zjistenou castku system uzivateli oznami

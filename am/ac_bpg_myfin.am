@@ -15,9 +15,6 @@ Pokazde, kdyz z nektereho sledovaneho uctu domacnost penize vybere (vydaj) nebo
 naopak na ucet penize vlozi (prijem), tak je treba tuto skutecnost zaevidovat.
 Viz [[ac_bp_evidence_transakce]].
 
-Prevod penez z jednoho uctu na druhy je nutne take evidovat, aby zustatky uctu
-zustavaly spravne. Viz [[ac_bp_prevod_mezi_ucty]].
-
 Samotna evidence jednotlivych transakci by byla samoucelna. Smyslem evidence je
 nejaky uzitek, kvuli kteremu travim cas kazdodennim zapisovanim vydaju. Tim
 uzitkem je rychly informacni servis, ktery mi muze system poskytnout. Z

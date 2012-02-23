@@ -9,9 +9,10 @@ System predlozi seznam evidovanych [[transakce]].
 == scenario ==
 
 System predlozi seznam evidovanych [[transakce]]. Kazda polozka seznamu obsahuje tyto udaje:
-  - [[ucet]]
+  - [[jmeno_uctu]] < [[trans_na_uctu]] 
   - [[datum_uskutecneni_trans]]
   - [[castka_trans]]
+  - [[jmeno_kateg]] < [[trans_v_kategorii]]
   - [[popis_trans]]
 
 == postconditions ==

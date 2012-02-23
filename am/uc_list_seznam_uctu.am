@@ -9,8 +9,8 @@ System predlozi seznam evidovanych [[ucet]].
 == scenario ==
 
 System predlozi seznam evidovanych [[ucet]]. Kazda polozka seznamu obsahuje tyto udaje:
-- [[jmeno_uctu]]
-- [[popis_uctu]]
+  - [[jmeno_uctu]]
+  - [[popis_uctu]]
 
 == postconditions ==
 

@@ -1,0 +1,34 @@
+= UseCase <<report>> Zustatky uctu =
+
+== description ==
+
+System predlozi sestavu zobrazujici zustatky vsech uctu k aktualnimu datumu a ke
+koncum minulych mesicu.
+
+== preconditions ==
+
+== scenario ==  
+
+System predlozi sestavu tohoto formatu:
+
+Zustatky uctu k 2010-03-18
+==========================
+
+Ucet               2010-03     2010-02     2010-01  ...
+------------------------------------------------------------------------------
+bezny                 5836       14863        ...
+penezenka              380        3589        ...
+kreditka             -3520       -2000        ...
+pujcka              -15800      -12570        ...
+------------------------------------------------------------------------------
+*Celkem*               *-7896*          *300* 
+
+
+Zustatek uctu system zjisti pomoci [[uc_calc_zustatek_uctu]]
+
+== postconditions ==
+
+== errors ==
+
+
+
