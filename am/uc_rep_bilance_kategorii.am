@@ -1,0 +1,46 @@
+= UseCase <<report>> Bilance kategorii =
+
+== description ==
+
+System predlozi sestavu zobrazujici bilanci (bilance = prijmy - vydaje)
+transakci podle kategorii v aktualnim mesici a v predchozich mesicich a v
+predchozich letech.
+
+== preconditions ==
+
+== scenario ==  
+
+System predlozi sestavu tohoto formatu:
+
+Bilance kategorii
+=================
+
+Kategorie   2010-03     2010-02     2010-01  ...
+------------------------------------------------------------------------------
+Prijmove:
+vyplata      28000        ...
+rodicovsky    7500
+neznama       2000
+
+Vydajove:    
+jidlo        -8000
+bydleni      -5000   
+auto             0 
+benzin       -2000
+hypoteka       ...
+adam
+eva
+syn
+poplatek
+neznama       -500
+------------------------------------------------------------------------------
+*Celkem*     *-7896*          *300* 
+
+
+Bilanci kategorie v danem mesici system zjisti pomoci [[uc_calc_bilance_kategorie]]
+
+== postconditions ==
+
+== errors ==
+
+

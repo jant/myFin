@@ -24,7 +24,7 @@ pujcka              -15800      -12570        ...
 *Celkem*               *-7896*          *300* 
 
 
-Zustatek uctu system zjisti pomoci [[uc_calc_zustatek_uctu]]
+Zustatek uctu k danemu datumu system zjisti pomoci [[uc_calc_zustatek_uctu]]
 
 == postconditions ==
 

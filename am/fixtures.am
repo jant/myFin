@@ -1,12 +1,12 @@
 = ucty =
 
-penezenka:
-  name: penezenka
-  descr: moje penezenka
-
 bezny:
   name: bezny
   descr: bezny ucet u CSOB
+
+penezenka:
+  name: penezenka
+  descr: moje penezenka
 
 kreditka:
   name: kreditka
@@ -21,97 +21,247 @@ pujcka:
 
 vyplata:
   name: vyplata
-  for_direction: prijem
+  on_direction: prijem
   descr: adamova vyplata ze zamestnani
 
 rodicovsky:
   name: rodicovsky
-  for_direct: prijem
+  on_direct: prijem
   descr: rodicovsky prispevek
 
 jidlo:
   name: jidlo
-  for_direct: vydaj
+  on_direct: vydaj
   descr: jidlo
-
+  
 bydleni:
   name: bydleni
-  for_direct: vydaj
+  on_direct: vydaj
   descr: sluzby spojene s bydlenim: el, plyn, internet, TV, SV, teplo, voda, fond oprav, sprava domu
 
 auto:
   name: auto
-  for_direct: vydaj
+  on_direct: vydaj
   descr: udrzba auta - opravy, STK, pov. ruceni
 
 benzin:
   name: benzin
-  for_direct: vydaj
+  on_direct: vydaj
   descr: benzin
 
 hypoteka:
   name: hypoteka
-  for_direct: vydaj
+  on_direct: vydaj
   descr: hypoteka na byt
 
 adam:
   name: adam
-  for_direct: vydaj
+  on_direct: vydaj
   descr: osobni adamovy vydaje
 
 eva:
   name: eva
-  for_direct: vydaj
+  on_direct: vydaj
   descr: osobni eviny vydaje
 
 syn:
   name: syn
-  for_direct: vydaj
+  on_direct: vydaj
   descr: co nas stoji synek
 
 poplatek:
   name: poplatek
-  for_direct: vydaj
+  on_direct: vydaj
   descr: poplatky bance aj.
 
 
 = transakce =
 
-bezny_2010-12-31:
-  for_acc: bezny
+bezny_20101231_pocatek:
+  on_acc: bezny
   realiz_date: 2010-12-31
-  amount: 6859
+  amount: 6870
   descr: pocatecni stav
   in_categ: nil
 
-bezny_20110105_bydleni:
-  for_acc: bezny
+penezenka_20101231_pocatek:
+  on_acc: penezenka
+  realiz_date: 2010-12-31
+  amount: 2860
+  descr: pocatecni stav
+  in_categ: nil
+
+kreditka_20101231_pocatek:
+  on_acc: kreditka
+  realiz_date: 2010-12-31
+  amount: -3900
+  descr: pocatecni stav
+  in_categ: nil
+
+pujcka_20101231_pocatek:
+  on_acc: pujcka
+  realiz_date: 2010-12-31
+  amount: -15000
+  descr: pocatecni stav
+  in_categ: nil
+
+bezny_20110102_prevod:
+  on_acc: bezny
+  realiz_date: 2011-01-02
+  amount: -15000
+  descr: prevod bezny -> penezenka
+  in_categ: nil
+
+penezenka_20110102_prevod:
+  on_acc: penezenka
+  realiz_date: 2011-01-02
+  amount: 15000
+  descr: prevod bezny -> penezenka
+  in_categ: nil
+
+penezenka_20110102_jidlo:
+  on_acc: penezenka
+  realiz_date: 2011-01-02
+  amount: -4000
+  descr: jidlo
+  in_categ: jidlo
+
+penezenka_20110102_eva:
+  on_acc: penezenka
+  realiz_date: 2011-01-02
+  amount: -3000
+  descr: eva
+  in_categ: eva
+
+penezenka_20110103_syn:
+  on_acc: penezenka
+  realiz_date: 2011-01-03
+  amount: -350
+  descr: plinky
+  in_categ: syn
+
+bezny_20110103_prevod:
+  on_acc: bezny
+  realiz_date: 2011-01-03
+  amount: -3900
+  descr: prevod bezny -> kreditka
+  in_categ: nil
+
+kreditka_20110105_prevod:
+  on_acc: kreditka
   realiz_date: 2011-01-05
-  amount: 5300
+  amount: 3900
+  descr: prevod bezny -> kreditka
+  in_categ: nil
+
+bezny_20110105_bydleni:
+  on_acc: bezny
+  realiz_date: 2011-01-05
+  amount: 4200
   descr: uhrada za uzivani bytu
   in_categ: bydleni
 
+bezny_20110105_elektrina:
+  on_acc: bezny
+  realiz_date: 2011-01-05
+  amount: 400
+  descr: elektrina
+  in_categ: bydleni
+
+bezny_20110105_plyn:
+  on_acc: bezny
+  realiz_date: 2011-01-05
+  amount: 200
+  descr: plyn
+  in_categ: bydleni
+
+bezny_20110105_tv:
+  on_acc: bezny
+  realiz_date: 2011-01-05
+  amount: 120
+  descr: TV
+  in_categ: bydleni
+
 bezny_20110105_adam:
-  for_acc: bezny
+  on_acc: bezny
   realiz_date: 2011-01-05
   amount: 500
   descr: penzijni pojisteni
   in_categ: adam
 
 bezny_20110107_rodicovsky:
-  for_acc: bezny
+  on_acc: bezny
   realiz_date: 2011-01-07
   amount: 7500
   descr: sprava socialniho zabezpeceni
   in_categ: rodicovsky
 
+kreditka_20110113_benzin:
+  on_acc: kreditka
+  realiz_date: 2011-01-14
+  amount: 1386
+  descr: benzin
+  in_categ: benzin
+
+bezny_20110114_rozhlas:
+  on_acc: bezny
+  realiz_date: 2011-01-14
+  amount: 540
+  descr: rozhlas
+  in_categ: bydleni
+
+penezenka_20110115_jidlo:
+  on_acc: penezenka
+  realiz_date: 2011-01-15
+  amount: -3000
+  descr: jidlo
+  in_categ: jidlo
+
+penezenka_20110115_syn:
+  on_acc: penezenka
+  realiz_date: 2011-01-15
+  amount: -350
+  descr: plinky
+  in_categ: syn
+
 bezny_20110117_vyplata:
-  for_acc: bezny
+  on_acc: bezny
   realiz_date: 2011-01-17
   amount: 28000
   descr: FIRMA, a.s.
   in_categ: vyplata
 
+penezenka_20110121_syn:
+  on_acc: penezenka
+  realiz_date: 2011-01-21
+  amount: -900
+  descr: boty
+  in_categ: syn
+
+bezny_20110125_internet:
+  on_acc: bezny
+  realiz_date: 2011-01-25
+  amount: 300
+  descr: internet
+  in_categ: bydleni
+
+bezny_20110125_hypoteka:
+  on_acc: bezny
+  realiz_date: 2011-01-25
+  amount: 5000
+  descr: hypoteka
+  in_categ: hypoteka
+
+penezenka_20110128_adam:
+  on_acc: penezenka
+  realiz_date: 2011-01-28
+  amount: 4300
+  descr: obedy apod.
+  in_categ: adam
+
+
+
+----------------------------------------------------------------------
 
 = prijmy =
 28000 vyplata
@@ -119,24 +269,24 @@ bezny_20110117_vyplata:
 
 = vydaje =
 5300 bydleni - provoz bytu
+  
   400 elektrina
   200 plyn
   300 internet
-  100 TV a rozhlas / placene rocne
+  170 TV a rozhlas / placene rocne
   100 popelnice / placene rocne
+
   600 TUV
   400 SV
   1200 teplo
   2000 sprava domu - fond oprav aj.
 
 500 penzijni pojisteni
-8000 jidlo
+7000 jidlo
 2000 syn
 4000 manzelka
 5000 3000 osobni vydaje + obedy - vice ruznych polozek
 5000 hypoteka 4800 + 200
 1000 auto
 2000 benzin
-
-
 

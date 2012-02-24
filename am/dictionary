@@ -7,8 +7,8 @@ ac_bp_zjisteni_zustatku_uctu.am
 castka_trans.am
 cls_account.am
 cls_category.am
+cls_direction.am
 cls_transaction.am
-cls_trans_direction.am
 datum_uskutecneni_trans.am
 fixtures.am
 index.am
@@ -16,7 +16,7 @@ jmeno_kateg.am
 jmeno_uctu.am
 kategorie.am
 kateg_pro_smer.am
-kod_smeru_trans.am
+kod_smeru.am
 pkg_bpm.am
 pkg_cm.am
 pkg_concept_dictionary.am
@@ -24,11 +24,12 @@ pkg_ucm.am
 popis_kateg.am
 popis_trans.am
 popis_uctu.am
-smer_transakce.am
+smer.am
 transakce.am
 trans_na_uctu.am
 trans_v_kategorii.am
 ucet.am
+uc_calc_bilance_kategorie.am
 uc_calc_zustatek_uctu.am
 uc_del_zruseni_kategorie.am
 uc_del_zruseni_transakce.am
@@ -48,6 +49,7 @@ uc_list_seznam_uctu.am
 uc_reg_evidence_kategorie.am
 uc_reg_evidence_transakce.am
 uc_reg_evidence_uctu.am
+uc_rep_bilance_kategorii.am
 uc_rep_zustatky_uctu.am
 uc_upd_zmena_kategorie.am
 uc_upd_zmena_transakce.am

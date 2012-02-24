@@ -1,0 +1,15 @@
+= Object <<concept>> Kod smeru =
+
+== translation ==
+
+Direction Code (Direct. code)
+
+== description ==
+
+Kratky text popisujici smer transakce.
+
+== examples ==
+  - "prijem"
+  - "vydaj"
+
+

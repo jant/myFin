@@ -3,6 +3,6 @@
 [[cls_account]]
 [[cls_category]]
 [[cls_transaction]]
-[[cls_trans_direction]]
+[[cls_direction]]
 
 [[fixtures]]

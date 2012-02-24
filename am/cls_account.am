@@ -1,4 +1,5 @@
 -- [[ucet]]
+-- omezeni viz [[uc_val_validace_uctu]]
 class Account
 attributes
   -- [[jmeno_uctu]]   
@@ -8,7 +9,6 @@ attributes
 end
 
 constraints
--- viz [[uc_val_validace_uctu]]
 
 context Account
   inv inv1: Account.allInstances->forAll(i1,i2 | i1 <> i2 implies i1.name <> i2.name)

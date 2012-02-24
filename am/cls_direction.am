@@ -1,0 +1,7 @@
+-- [[smer]]
+class Direction
+attributes
+  -- [[kod_smeru]]   
+  code: String
+end
+

@@ -15,7 +15,7 @@ Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
   # [[trans_na_uctu]] je povinny
   # [[datum_uskutecneni_trans]] je povinne
   # [[castka_trans]] je povinna
-  # [[castka_trans]] > 0
+  # [[castka_trans]] <> 0
   # [[popis_trans]] <= 80
 
 
@@ -29,6 +29,6 @@ Pokud je poruseno nektere z nasledujicich omezeni, tak ERR#:
   # [[trans_na_uctu]] je povinny.
   # [[datum_uskutecneni_trans]] je povinne.
   # [[castka_trans]] je povinna.
-  # [[castka_trans]] musi byt > 0.
+  # [[castka_trans]] nesmi byt 0.
   # [[popis_trans]] muze obsahovat maximalne 80 znaku.
 

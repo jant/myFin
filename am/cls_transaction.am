@@ -1,4 +1,5 @@
 -- [[transakce]] 
+-- omezeni viz [[uc_val_validace_transakce]]
 class Transaction
 attributes
   -- [[datum_uskutecneni_trans]] 
@@ -9,30 +10,17 @@ attributes
   descr: String
 end
 
-association TransAcc between
+association TransOnAcc between
   Transaction[*]
   -- [[trans_na_uctu]]
-  Account[1] on_account
+  Account[1] on_acc
 end
 
-association TransCateg between
+association TransInCateg between
   Transaction[*]
   -- [[trans_v_kategorii]]
   Category[0..1] in_categ
 end
-
-
-constraints
--- viz [[uc_val_validace_transakce]]
-
-context Transaction
-  inv inv1: Transaction.allInstances->forAll(i1,i2 | i1 <> i2 implies
-    i1.account <> i2.account or i1.date <> i2.date or i1.amount <> i2.amount or i1.descr <> i2.descr)
-  inv inv2: account <> null
-  inv inv3: date <> null
-  inv inv4: amount <> null
-  inv inv5: amount <> 0
-  inv inv6: descr.size <= 80
 
 
 

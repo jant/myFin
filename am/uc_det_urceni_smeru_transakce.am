@@ -2,23 +2,23 @@
 
 == description ==
 
-Uzivatel urci [[smer_transakce]].
+Uzivatel urci [[smer]].
 
 == preconditions ==
 
 == scenario ==
 
-System predlozi prazdny formular. Uzivatel zada [[kod_smeru_trans]].
+System predlozi prazdny formular. Uzivatel zada [[kod_smeru]].
 
-Pro zjisteni, ktere [[smer_transakce]] jsou systemem definovane, uzivatel pouzije
+Pro zjisteni, ktere [[smer]] jsou systemem definovane, uzivatel pouzije
 [[uc_list_seznam_smeru_transakci|seznam]].
   
-Pokud zadany [[kod_smeru_trans]] neni systemem definovany, tak ERR1.
+Pokud zadany [[kod_smeru]] neni systemem definovany, tak ERR1.
 
 == postconditions ==
-  - Je urcen [[smer_transakce]]. 
+  - Je urcen [[smer]]. 
 
 == errors ==
-  # [[kod_smeru_trans]] = [%1] neni systemem definovany.
+  # [[kod_smeru]] = [%1] neni systemem definovany.
 
 

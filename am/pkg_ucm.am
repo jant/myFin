@@ -6,16 +6,19 @@ Vnejsi UC (tzn. ty, ktere spousti explicitne uzivatel):
   [[uc_ins_zalozeni_uctu]]
   [[uc_upd_zmena_uctu]]
   [[uc_del_zruseni_uctu]]
+[[uc_list_seznam_uctu]]
 
 [[uc_reg_evidence_kategorie]]
   [[uc_ins_zalozeni_kategorie]]
   [[uc_upd_zmena_kategorie]]
   [[uc_del_zruseni_kategorie]]
+[[uc_list_seznam_kategorii]]
 
 [[uc_reg_evidence_transakce]]
   [[uc_ins_zalozeni_transakce]]
   [[uc_upd_zmena_transakce]]
   [[uc_del_zruseni_transakce]]
+[[uc_list_seznam_transakci]]
 
 [[uc_rep_zustatky_uctu]]
 [[uc_rep_bilance_kategorii]]

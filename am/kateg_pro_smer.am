@@ -6,7 +6,7 @@ Category For Direction (Categ. For Direct.)
 
 == description == 
 
-[[smer_transakce|Smer transakci]], pro ktere je [[kategorie]] navrzena.
+[[smer|Smer transakci]], pro ktere je [[kategorie]] navrzena.
 Kategorie je svym urcenim bud prijmova nebo vydajova. Ale neni omezeno, aby ve
 vydajove kategorii nemohly byt prijmove transakce (napr. ve vydajove kategorii
 "bydleni" bude prijmova transakce "preplatek vyuctovani tepla").

@@ -2,13 +2,13 @@
 
 == description ==
 
-System predlozi seznam systemem definovanych [[smer_transakce]].
+System predlozi seznam systemem definovanych [[smer]].
 
 == preconditions ==
 
 == scenario ==
 
-System predlozi seznam systemem definovanych [[kod_smeru_trans]] 
+System predlozi seznam systemem definovanych [[kod_smeru]] 
   - "prijem"
   - "vydaj"
 

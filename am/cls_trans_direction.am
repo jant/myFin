@@ -1,7 +1,0 @@
--- [[smer_transakce]]
-class TransDirection
-attributes
-  -- [[kod_smeru_trans]]   
-  code: String
-end
-

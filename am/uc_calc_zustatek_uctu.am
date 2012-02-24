@@ -1,7 +1,22 @@
-- uzivatel zada
-  - ucet, datum
-  
-- system najde vsechny transakce zadaneho uctu, ktere maji
-  [[datum_uskutecneni_trans]] <= zadane datum a secte jejich [[castka_trans]]
+= UseCase <<calculation>> Zustatek uctu =
 
-- zjistenou castku system uzivateli oznami
+== description ==
+
+System vypocte zustatek na uctu k zadanemu datumu a oznami vysledek uzivateli.
+
+== preconditions ==
+
+== scenario ==  
+
+System predlozi formular a uzivatel zada:
+  - $[[ucet]] prostrednictvim [[uc_det_urceni_uctu]]
+  - $datum
+
+System najde vsechny [[transakce]], ktere vyhovuji podminkam:
+  - [[trans_na_uctu]] = $ucet
+  - [[datum_uskutecneni_trans]] <= $datum
+a secte jejich [[castka_trans]].
+
+== postconditions ==
+
+== errors ==

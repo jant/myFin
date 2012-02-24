@@ -1,0 +1,26 @@
+= UseCase <<calculation>> Bilance kategorie =
+
+== description ==
+
+System vypocte bilanci kategorie v zadanem obdobi a oznami vysledek uzivateli.
+
+== preconditions ==
+
+== scenario ==  
+
+System predlozi formular a uzivatel zada:
+  - $[[kategorie]] prostrednictvim [[uc_det_urceni_kategorie]]
+  - $datumOd
+  - $datumDo
+
+System najde vsechny [[kategorie]], ktere vyhovuji podminkam:
+  - [[trans_v_kategorii]] = $kategorie
+  - [[datum_uskutecneni_trans]] >= $datumOd
+  - [[datum_uskutecneni_trans]] <= $datumDo
+a secte jejich [[castka_trans]].
+
+== postconditions ==
+
+== errors ==
+
+
