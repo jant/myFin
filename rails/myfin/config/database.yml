@@ -1,0 +1,24 @@
+development:
+  adapter: sqlite3
+  database: db/development.sqlite3
+  pool: 5
+  timeout: 5000
+
+# sqllite3 nefunguje,protoze ve W7 x RubyMine je nejaka chyba - nelze smazat databaze
+# proto pouzivam myssql
+test:
+  adapter: mysql2
+  port: 3306
+  encoding: utf8
+  reconnect: false
+  database: myfin_test
+  pool: 5
+  username: root
+  password: root
+  host: localhost
+
+production:
+  adapter: sqlite3
+  database: db/production.sqlite3
+  pool: 5
+  timeout: 5000
