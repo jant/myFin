@@ -1,9 +1,15 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+bezny:
+  name: bezny
+  descr: bezny ucet u CSOB
 
-one:
-  name: MyString
-  descr: MyString
+penezenka:
+  name: penezenka
+  descr: moje penezenka
 
-two:
-  name: MyString1
-  descr: MyString
+kreditka:
+  name: kreditka
+  descr: kreditni karta od UniCredit
+
+pujcka:
+  name: pujcka
+  descr: pujcka od rodicu

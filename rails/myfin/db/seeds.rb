@@ -4,4 +4,3 @@ Account.create(name: 'penezenka', descr: 'moje penezenka')
 Account.create(name: 'kreditka', descr: 'kreditni karta od UniCredit')
 Account.create(name: 'pujcka', descr: 'pujcka od rodicu')
 
- 
