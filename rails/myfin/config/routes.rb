@@ -1,5 +1,11 @@
 Myfin::Application.routes.draw do
+  resources :categories
+
+  get "myfin/index"
+
   resources :accounts
+
+  root to: 'myfin#index', as: 'myfin'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
