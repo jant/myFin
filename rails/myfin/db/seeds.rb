@@ -1,3 +1,6 @@
+Transaction.delete_all
+
+
 Account.delete_all
 Account.create(name: 'bezny', descr: 'bezny ucet u CSOB')
 Account.create(name: 'penezenka', descr: 'moje penezenka')
@@ -19,4 +22,5 @@ Category.create(name: 'syn', descr: 'co nas stoji synek', direction: '-1')
 Category.create(name: 'poplatek', descr: 'poplatky bance aj.', direction: '-1')
 
 
+Transaction.create realization_date: '2012-03-05', amount: 20, description: 'nakup', account_id: Account.find_by_name('pujcka').id, category_id: '1'
 

@@ -42,3 +42,8 @@ gem 'jquery-rails'
 
 
 gem 'test-unit'
+
+# potrebne pro validaci asociaci
+# viz https://github.com/TheEmpty/Association-Validator
+# umoznuje    validates :user_id, :presence => true, :association => true
+gem "association_validator", "~> 0.6.1"

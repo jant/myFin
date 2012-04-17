@@ -1,4 +1,6 @@
 Myfin::Application.routes.draw do
+  resources :transactions
+
   resources :categories
 
   get "myfin/index"
