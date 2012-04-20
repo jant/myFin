@@ -1,37 +1,42 @@
 <%= form_for(@transaction) do |f| %>
-  <% if @transaction.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@transaction.errors.count, "error") %> prohibited this transaction from being saved:</h2>
+    <% if @transaction.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@transaction.errors.count, "error") %> prohibited this transaction from being saved:</h2>
 
-      <ul>
-      <% @transaction.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
+          <ul>
+            <% @transaction.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :realization_date %>
+      <br/>
+      <%= f.date_select :realization_date, use_month_numbers: true %>
     </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :realization_date %><br />
-    <%= f.date_select :realization_date %>
-  </div>
-  <div class="field">
-    <%= f.label :amount %><br />
-    <%= f.text_field :amount %>
-  </div>
-  <div class="field">
-    <%= f.label :description %><br />
-    <%= f.text_field :description %>
-  </div>
-  <div class="field">
-    <%= f.label :account_id %><br />
-    <%= f.collection_select :account_id, Account.all, :id, :name, include_blank: true %>
-  </div>
-  <div class="field">
-    <%= f.label :category_id %><br />
-    <%= f.number_field :category_id %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+    <div class="field">
+      <%= f.label :account_id %>
+      <br/>
+      <%= f.collection_select :account_id, Account.all, :id, :name %>
+    </div>
+    <div class="field">
+      <%= f.label :category_id %>
+      <br/>
+      <%= f.collection_select :category_id, Category.all, :id, :name, include_blank: true %>
+    </div>
+    <div class="field">
+      <%= f.label :amount %>
+      <br/>
+      <%= f.text_field :amount %>
+    </div>
+    <div class="field">
+      <%= f.label :description %>
+      <br/>
+      <%= f.text_field :description %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
 <% end %>

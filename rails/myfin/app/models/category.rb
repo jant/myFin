@@ -5,4 +5,17 @@ class Category < ActiveRecord::Base
   validates :name, length: {maximum: 20}
   validates :descr, length: {maximum: 80}
   validates :direction, presence: true, inclusion: [-1,+1]
+
+  before_destroy :check_transactions
+
+  private
+
+  def check_transactions
+    if transactions.count > 0
+      return false
+    end
+  end
+
+
+
 end

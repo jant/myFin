@@ -1,15 +1,21 @@
-#require "association_validator"
-
 class Transaction < ActiveRecord::Base
   belongs_to :account
   belongs_to :category
-  validates :account_id, presence: true #, association: true
 
+  validates :account_id, presence: true, existence: {both: false}
+  validates :category_id, existence: {allow_nil: true, both: false}
+  validates :realization_date, presence: true
+  validates :amount, presence: true, numericality: true, exclusion: {in: [0], message: 'Castka nesmi byt 0'}
+  validates :description, uniqueness: {scope: [:realization_date, :amount, :account_id], message: "Musi byt splnena jednoznacnost ucet,datum,castka,popis"}
 
-  validate :xxx
-
-  def xxx
-   errors.add(:account_id, "neni tam") unless account_id.nil? or Account.find_by_id(account_id)
-  end
+# validate :account_must_exist
+# validate :category_must_exist
+# def account_must_exist
+#  errors.add(:account_id, "neni tam") unless Account.find_by_id(account_id)
+# end
+#
+# def category_must_exist
+#   errors.add(:category_id, "neni tam") unless category_id.nil? or Category.find_by_id(category_id)
+# end
 
 end

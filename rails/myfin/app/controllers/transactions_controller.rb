@@ -44,7 +44,8 @@ class TransactionsController < ApplicationController
 
     respond_to do |format|
       if @transaction.save
-        format.html { redirect_to @transaction, notice: 'Transaction was successfully created.' }
+#        format.html { redirect_to @transaction, notice: 'Transaction was successfully created.' }
+        format.html { render action: "edit" }
         format.json { render json: @transaction, status: :created, location: @transaction }
       else
         format.html { render action: "new" }
@@ -60,7 +61,8 @@ class TransactionsController < ApplicationController
 
     respond_to do |format|
       if @transaction.update_attributes(params[:transaction])
-        format.html { redirect_to @transaction, notice: 'Transaction was successfully updated.' }
+#        format.html { redirect_to @transaction, notice: 'Transaction was successfully updated.' }
+        format.html { render action: "edit" }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

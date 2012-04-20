@@ -44,6 +44,6 @@ gem 'jquery-rails'
 gem 'test-unit'
 
 # potrebne pro validaci asociaci
-# viz https://github.com/TheEmpty/Association-Validator
+# viz https://github.com/perfectline/validates_existence
 # umoznuje    validates :user_id, :presence => true, :association => true
-gem "association_validator", "~> 0.6.1"
+gem "validates_existence", ">= 0.4"

@@ -22,7 +22,7 @@
 
 <p>
   <b>Category:</b>
-  <%= @transaction.category_id %>
+  <%= Category.find(@transaction.category_id).name unless @transaction.category_id.nil? %>
 </p>
 
 

@@ -12,20 +12,19 @@
     <th></th>
   </tr>
 
-<% @transactions.each do |transaction| %>
-  <tr>
-    <td><%= transaction.realization_date %></td>
-    <td><%= transaction.amount %></td>
-    <td><%= transaction.description %></td>
-    <td><%= Account.find(transaction.account_id).name %></td>
-    <td><%= transaction.category_id %></td>
-    <td><%= link_to 'Show', transaction %></td>
-    <td><%= link_to 'Edit', edit_transaction_path(transaction) %></td>
-    <td><%= link_to 'Destroy', transaction, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
-<% end %>
+  <% @transactions.each do |transaction| %>
+      <tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
+        <td><%= transaction.realization_date %></td>
+        <td><%= transaction.amount %></td>
+        <td><%= transaction.description %></td>
+        <td><%= Account.find(transaction.account_id).name %></td>
+        <td><%= Category.find(transaction.category_id).name unless transaction.category_id.nil? %></td>
+        <td><%= link_to 'Edit', edit_transaction_path(transaction) %></td>
+        <td><%= link_to 'Destroy', transaction, confirm: 'Are you sure?', method: :delete %></td>
+      </tr>
+  <% end %>
 </table>
 
-<br />
+<br/>
 
 <%= link_to 'New Transaction', new_transaction_path %>
