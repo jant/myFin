@@ -20,5 +20,10 @@ class Account < ActiveRecord::Base
     transactions.sum :amount, conditions: ['realization_date <= ?', date]
   end
 
+  # @param [Date] date
+  def self.balance(date)
+    Transaction.sum :amount, conditions: ['realization_date <= ?', date]
+  end
+
 
 end
