@@ -1,14 +1,20 @@
 <h2>Zustatky uctu</h2>
 
-#todo-me metoda v modelu Transaction, ktera ziska datum nejstarsi transakce a toto datum pouzijes zde
-
-<% months = month_ends('2011-03-15'.to_date, Date.current).reverse! %>
+<% years = year_ends(Transaction.minimum(:realization_date), Date.current).reverse! %>
+<% months = month_ends(Transaction.minimum(:realization_date), Date.current).reverse! %>
 
 <table>
   <tr>
+    <th>Rok</th>
+    <% years.each do |year| %>
+        <th colspan=<%= months_in_year(months, year) %>><%= year.strftime("%Y") %></th>
+    <% end %>
+  </tr>
+
+  <tr>
     <th>Ucet\Mesic</th>
     <% months.each do |month| %>
-        <th><%= month.strftime("%Y-%m") %></th>
+        <th><%= month.strftime("%m") %></th>
     <% end %>
   </tr>
 
