@@ -8,14 +8,5 @@ class Transaction < ActiveRecord::Base
   validates :amount, presence: true, numericality: true, exclusion: {in: [0], message: 'Castka nesmi byt 0'}
   validates :description, uniqueness: {scope: [:realization_date, :amount, :account_id], message: "Musi byt splnena jednoznacnost ucet,datum,castka,popis"}
 
-# validate :account_must_exist
-# validate :category_must_exist
-# def account_must_exist
-#  errors.add(:account_id, "neni tam") unless Account.find_by_id(account_id)
-# end
-#
-# def category_must_exist
-#   errors.add(:category_id, "neni tam") unless category_id.nil? or Category.find_by_id(category_id)
-# end
 
 end

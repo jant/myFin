@@ -3,7 +3,7 @@
 <% years = year_ends(Transaction.minimum(:realization_date), Date.current).reverse! %>
 <% months = month_ends(Transaction.minimum(:realization_date), Date.current).reverse! %>
 
-<table>
+<table class="table_fin">
   <tr>
     <th>Rok</th>
     <% years.each do |year| %>
@@ -14,26 +14,71 @@
   <tr>
     <th>Ucet\Mesic</th>
     <% months.each do |month| %>
-        <th><%= month.strftime("%m") %></th>
+        <th><%= month.strftime("%m-%d") %></th>
     <% end %>
   </tr>
 
 
   <% @accounts.each do |account| %>
       <tr>
-        <td><%= account.name %></td>
+        <td class="td_caption"><%= account.name %></td>
         <% months.each do |month| %>
-            <td><%= account.balance month %></td>
+            <td class=<%=account.balance(month) >= 0 ? "td_number" : "td_number_red" %>><%= number_with_precision account.balance(month), {precision: 0, delimiter: ' '} %></td>
         <% end %>
       </tr>
   <% end %>
 
   <tr>
-    <td><b>CELKEM</b></td>
+    <td class="td_caption"><b>CELKEM</b></td>
     <% months.each do |month| %>
-        <td><b><%= Account.balance month %></b></td>
+        <td class=<%=Account.balance(month) >= 0 ? "td_number" : "td_number_red" %>><b><%= number_with_precision Account.balance(month), {precision: 0, delimiter: ' '}%></b></td>
     <% end %>
 
+  </tr>
+
+</table>
+
+
+
+<h2>Salda kategorii</h2>
+
+<table class="table_fin">
+  <tr>
+    <th>Rok</th>
+    <% years.each do |year| %>
+        <th colspan=<%= months_in_year(months, year) %>><%= year.strftime("%Y") %></th>
+    <% end %>
+  </tr>
+
+  <tr>
+    <th>Kategorie\Mesic</th>
+    <% months.each do |month| %>
+        <th><%= month.strftime("%m-%d") %></th>
+    <% end %>
+  </tr>
+
+
+  <% @categories.each do |category| %>
+      <tr>
+        <td class="td_caption"><%= category.name %> </td>
+        <% months.each do |month| %>
+            <td class=<%=category.balance(month.beginning_of_month, month) >= 0 ? "td_number" : "td_number_red" %>><%= number_with_precision category.balance(month.beginning_of_month, month), {precision: 0, delimiter: ' '} %></td>
+        <% end %>
+      </tr>
+  <% end %>
+
+  <tr>
+    <td class="td_caption">nezadána</td>
+    <% months.each do |month| %>
+        <td class=<%=Category.balance_without_category(month.beginning_of_month, month) >= 0 ? "td_number" : "td_number_red" %>><%= number_with_precision Category.balance_without_category(month.beginning_of_month, month), {precision: 0, delimiter: ' '}%></td>
+    <% end %>
+  </tr>
+
+  <tr>
+    <td class="td_caption"><b>CELKEM</b></td>
+    <% months.each do |month| %>
+        <td class=<%=Category.balance(month.beginning_of_month, month) >= 0 ? "td_number" : "td_number_red" %>><b><%= number_with_precision Category.balance(month.beginning_of_month, month), {precision: 0, delimiter: ' '}%></b></td>
+    <% end %>
   </tr>
 
 </table>

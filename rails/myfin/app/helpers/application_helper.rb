@@ -1,3 +1,5 @@
+require 'active_support\core_ext\date\calculations'
+
 module ApplicationHelper
 
   def month_ends(d_from, d_to=Date.current)
@@ -5,7 +7,7 @@ module ApplicationHelper
     ret_arr = [] << d
     while d < d_to
       d >>= 1
-      ret_arr << d
+      ret_arr << d.end_of_month
     end
     ret_arr
   end

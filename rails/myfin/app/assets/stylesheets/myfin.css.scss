@@ -1,3 +1,38 @@
 // Place all the styles related to the myfin controller here.
 // They will automatically be included in application.css.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.table_fin th {
+  width: 60px;
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
+  background-color: #d3d3d3;
+}
+
+.table_fin td {
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
+}
+
+
+.td_caption {
+  width: 120px;
+  background-color: #d3d3d3;
+  text-align: right;
+}
+
+.td_number {
+  width: 60px;
+  background-color: white;
+  text-align: right;
+}
+
+.td_number_red {
+  width: 60px;
+  background-color: white;
+  text-align: right;
+  color: red;
+}
+

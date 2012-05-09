@@ -30,12 +30,12 @@ ActiveRecord::Schema.define(:version => 20120412183738) do
 
   create_table "transactions", :force => true do |t|
     t.date     "realization_date"
-    t.decimal  "amount"
+    t.decimal  "amount",           :precision => 10, :scale => 0
     t.string   "description"
     t.integer  "account_id"
     t.integer  "category_id"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                                      :null => false
+    t.datetime "updated_at",                                      :null => false
   end
 
 end

@@ -16,6 +16,20 @@ class Category < ActiveRecord::Base
     end
   end
 
+  public
 
+  # @param [Date] from
+  def balance(from, to)
+    transactions.sum :amount, conditions: ['realization_date >= ? and realization_date <= ?', from, to]
+  end
+
+  # @param [Date] from
+  def self.balance(from, to)
+    Transaction.sum :amount, conditions: ['realization_date >= ? and realization_date <= ?', from, to]
+  end
+
+  def self.balance_without_category(from, to)
+    Transaction.sum :amount, conditions: ['realization_date >= ? and realization_date <= ? and category_id is null', from, to]
+  end
 
 end
